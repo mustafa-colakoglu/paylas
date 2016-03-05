@@ -6,7 +6,7 @@
 			echo $HataMesaji;
 		}
 		else{
-			echo "Kayıt Başarılı";
+			echo $HataMesaji;
 		}
 	?>
 	<div class="kayit">
