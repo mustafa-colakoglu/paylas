@@ -23,7 +23,7 @@
 		<?php
 			if($UyeBilgileri["Tip"] == 2){
 			?>
-			<textarea name="KisaOzet" placeholder="Sizinle ilgili kısa bir özet"><?php ?></textarea> <br/><br/><br/>
+			<textarea name="KisaOzet" placeholder="Sizinle ilgili kısa bir özet"><?php echo $UyeBilgileri["KisaOzet"]; ?></textarea> <br/><br/><br/>
 			<?php
 			}
 		?>

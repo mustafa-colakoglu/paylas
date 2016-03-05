@@ -39,6 +39,10 @@
 						$this->BilgiGuncelle($U["UyeId"],"IlId",$IlId);
 					}
 				}
+				if(isset($_POST["KisaOzet"])){
+					$KisaOzet = $this->Uselib->formDataFix($_POST["KisaOzet"]);
+					$this->BilgiGuncelle($U["UyeId"],"KisaOzet",$KisaOzet);
+				}
 			}
 		}
 	}

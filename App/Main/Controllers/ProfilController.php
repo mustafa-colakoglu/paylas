@@ -25,7 +25,8 @@
 			$this->view("ProfilDuzenle",$data);
 		}
 		function actionIndex(){
-			
+			$data = $this->model("ProfilSection")->Veriler();
+			$this->view("ProfilSection",$data);
 		}
 	}
 ?>
