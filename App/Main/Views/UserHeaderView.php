@@ -14,7 +14,7 @@
 				<div class="logo">
 					<a href="<?php echo get::site(); ?>">Logo</a>
 				</div>
-				Hoşgeldiniz <?php echo $UyeBilgileri[0]["KullaniciAdi"]; ?>
+				Hoşgeldiniz <a href="<?php echo get::site(); ?>/Profil/Detay/<?php echo $UyeBilgileri[0]["KullaniciAdi"]; ?>"><?php echo $UyeBilgileri[0]["KullaniciAdi"]; ?></a>
 				<?php
 					if($EksikBilgiVar){
 					?>
