@@ -5,7 +5,8 @@
 		function actionIndex(){
 			if($this->model("LogInOut")->IsLogin()){
 				$data = $this->model("LogInOut")->GetLoginedUser();
-				$this->view("");
+				$data = array_merge($data,array("EksikBilgiVar" => true));
+				$this->view("UserHeader",$data);
 			}
 			else{
 				$this->view("StandartHeader");

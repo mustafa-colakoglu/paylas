@@ -11,6 +11,10 @@
 					if($this->KullaniciAdimi($KullaniciAdi)){
 						$data["HataMesaji"].="<li>Lütfen özel karakterler kullanmayın. Örn : türkçe karakterler , noktalama işaretleri</li>";
 					}
+					$KullaniciAdiKontrol = $this->select("uyeler","KullaniciAdi='$KullaniciAdi'");
+					if(count($KullaniciAdiKontrol)>0){
+						$data["HataMesaji"].="<li>Bu kullanıcı(<b>".$KullaniciAdi."</b>) adı başka bir kullanıcı tarafından kullanılıyor.</li>";
+					}
 				}
 				else{
 					$KullaniciAdi = "";
@@ -30,6 +34,11 @@
 				if(isset($_POST["Email"])){
 					if(filter_var($_POST["Email"], FILTER_VALIDATE_EMAIL)){
 						$Email = $_POST["Email"];
+						$EmailVarmi = $this->select("uyeler","Email='$Email'");
+						
+						if(count($EmailVarmi)>0){
+							$data["HataMesaji"].="<li>Bu e posta adresi(<b>".$Email."</b>) başka birisi tarafından kullanılıyor.</li>";
+						}
 					}
 					else{
 						$Email = "";
@@ -46,7 +55,18 @@
 					$data["HataMesaji"].="<li>Formda eksik değer bırakmayın.</li>";
 				}
 				if($data["HataMesaji"] == ""){
-					$this->insert("uyeler",false,"'','$KullaniciAdi'");
+					$this->insert("uyeler",false,"'','$KullaniciAdi','$Sifre1','','','$Email','','','2','','0','0'"); // 2 ihtiyaç sahipleri için
+					$data["Kaydet"] = 2;
+					$data["HataMesaji"] .= '<ul class="hataMesaji hataMesaji2"><li>Kayıt Başarılı. Profil Sayfanıza Yönlendiriliyorsunuz.</li></ul>';
+					$data["HataMesaji"] .= ' 	
+						<script type="text/javaScript">
+						setTimeout(function (){
+ 
+						window.location = "'.$this->site.'/Profil";
+						 
+						},3000);
+						</script>';
+					$this->model("LogInOut")->Login($KullaniciAdi, $Sifre1);
 				}
 				else{
 					$data["HataMesaji"] = "<ul class='hataMesaji'>".$data["HataMesaji"]."</ul>";
