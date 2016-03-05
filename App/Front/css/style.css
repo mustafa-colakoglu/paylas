@@ -70,3 +70,23 @@ body{
 				font-size:30px;
 				color:#000;
 			}
+	section{
+		width:800px;
+		height:auto;
+		background:#fff;
+		margin-top:10px;
+	}
+		.kayit{
+			width:500px;
+			height:auto;
+		}
+		.hataMesaji{
+			width:400px;
+			height:auto;
+			color:#fff;
+		}
+			.hataMesaji li{
+				width:400px;
+				margin-top:2px;
+				background:red;
+			}
