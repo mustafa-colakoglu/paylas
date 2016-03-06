@@ -6,7 +6,7 @@
  }
 body 
  { 
- 	background-image: url(../img/background.png);
+ 	background-image: url('http://localhost/paylas/images/background.png');
 	
  }
 .kapsa
@@ -14,11 +14,11 @@ body
 	background: #fff;
 	margin:0 auto;
 	width:980px;	
-	border: solid #CCC 2px;
+	
  }
 .header
  {
-	 background-image:url(../img/banner.png);
+	 background-image:url('http://localhost/paylas/images/banner.png');
 	 padding: 0px 30px 0px 30px;
 	 margin-bottom: -20px;
 	 width: 920px;
@@ -34,7 +34,7 @@ body
 	 margin-top: 17px;
 	 padding-top: 5px;
 	 text-align: center;
-	 
+	 tex-decoration: none;
  }
 .ihtiyac
  {
