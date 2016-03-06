@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Anamakine: localhost
--- Üretim Zamanı: 05 Mar 2016, 16:41:06
+-- Üretim Zamanı: 06 Mar 2016, 16:38:51
 -- Sunucu sürümü: 5.6.17
 -- PHP Sürümü: 5.5.12
 
@@ -36,19 +36,6 @@ CREATE TABLE IF NOT EXISTS `ihtiyaclar` (
   `AlinanId` int(11) NOT NULL,
   `Onay` tinyint(1) NOT NULL,
   PRIMARY KEY (`IhtiyacId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
-
--- --------------------------------------------------------
-
---
--- Tablo için tablo yapısı `ihtiyacsahipbilgileri`
---
-
-CREATE TABLE IF NOT EXISTS `ihtiyacsahipbilgileri` (
-  `BilgiId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `SahipId` int(11) NOT NULL,
-  `KisaOzet` text NOT NULL,
-  PRIMARY KEY (`BilgiId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
@@ -230,6 +217,7 @@ CREATE TABLE IF NOT EXISTS `uyeler` (
   `IlId` int(11) NOT NULL,
   `Onay` tinyint(1) NOT NULL,
   `Banlanma` tinyint(1) NOT NULL,
+  `KisaOzet` text NOT NULL,
   PRIMARY KEY (`UyeId`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
@@ -237,8 +225,8 @@ CREATE TABLE IF NOT EXISTS `uyeler` (
 -- Tablo döküm verisi `uyeler`
 --
 
-INSERT INTO `uyeler` (`UyeId`, `KullaniciAdi`, `Sifre`, `Ad`, `Soyad`, `Email`, `CepTel`, `Tc`, `Tip`, `IlId`, `Onay`, `Banlanma`) VALUES
-(1, 'mustafa220', '23ea07cb59b68ab6cfd1528086140aef', 'Mustafa', 'Ã‡olakoÄŸlu', 'mustafa@a.c', '05432491821', '49612045764', 2, 31, 0, 0);
+INSERT INTO `uyeler` (`UyeId`, `KullaniciAdi`, `Sifre`, `Ad`, `Soyad`, `Email`, `CepTel`, `Tc`, `Tip`, `IlId`, `Onay`, `Banlanma`, `KisaOzet`) VALUES
+(1, 'mustafa220', '23ea07cb59b68ab6cfd1528086140aef', 'Mustafa', 'Ã‡olakoÄŸlu', 'mustafa@a.c', '05432491821', '49612045764', 2, 31, 0, 0, 'ben mustafa Ã§');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
