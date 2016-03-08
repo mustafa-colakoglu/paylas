@@ -5,6 +5,13 @@
 	<title></title>
 </head>
 <body>
-	<script type="text/javascript"></script>
+	Giriş başarılı. Yönlendiriliyorsunuz.
+	<script type="text/javascript">
+		setTimeout(function (){
+
+		window.location = "<?php echo get::site(); ?>/Main";
+		 
+		},1000);
+	</script>
 </body>
 </html>

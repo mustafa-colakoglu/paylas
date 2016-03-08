@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="<?php echo get::site(); ?>/css/reset.css"/>
 		<link rel="stylesheet" href="<?php echo get::site(); ?>/css/style.css"/>
 		<script type="text/javascript" src="<?php echo get::site(); ?>/js/jquery.js"></script>
+		<script type="text/javascript" src="<?php echo get::site(); ?>/js/js.js"></script>
 		<script type="text/javascript"> var site = "<?php echo get::site(); ?>";</script>
 	</head>
 	<body>

@@ -14,7 +14,7 @@
 				<div class="logo">
 					<a href="<?php echo get::site(); ?>">Logo</a>
 				</div>
-				Hoşgeldiniz <a href="<?php echo get::site(); ?>/Profil/Detay/<?php echo $UyeBilgileri[0]["KullaniciAdi"]; ?>"><?php echo $UyeBilgileri[0]["KullaniciAdi"]; ?></a>
+				Hoşgeldiniz <a href="<?php echo get::site(); ?>/Profil/<?php echo $UyeBilgileri[0]["KullaniciAdi"]; ?>"><?php echo $UyeBilgileri[0]["KullaniciAdi"]; ?></a> <a href="<?php echo get::site(); ?>/LogOut">Çıkış</a>
 				<?php
 					if($EksikBilgiVar){
 					?>
