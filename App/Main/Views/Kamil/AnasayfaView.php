@@ -14,9 +14,10 @@
 <div class="kapsa">
     	<div class="header">
             
-            <div class="ihtiyac"><a href="">İhtiyaç Sahibiyim</a></div>
+          <div class="ihtiyac"><a href="">İhtiyaç Sahibiyim</a></div>
           <div class="gonullu"><a href="">Gönüllüyüm</a></div>
-  </div>
+          <div class="kayit"><a href="<?php echo get::site(); ?>/admin/index.html">Giris Yapiniz...</a></div>
+  		</div>
         <ul id="menu" class="black" style=" margin-top:20px; background: #343334">
     		<li class="active"><a href="index.html">Anasayfa</a></li>    		
 			<li><a href="paylas-takipet.html">Paylas / Takip Et</a></li>
@@ -25,10 +26,9 @@
    <div id="slider"style="background: #ebebeb;">
      <div class="slider">
         <ul>
-         <li><a href=""><img src="<?php echo get::site(); ?>/images/slider/img/img1.png" alt="" /></a></li>
-         <li><a href=""><img src="<?php echo get::site(); ?>/images/slider/img/img2.png" alt="" /></a></li>
-         <li><a href=""><img src="<?php echo get::site(); ?>/images/slider/img/img3.png" alt="" /></a></li>
-         <li><a href=""><img src="<?php echo get::site(); ?>/images/slider/img/img4.png" alt="" /></a></li>
+         <li><a href=""><img src="<?php echo get::site(); ?>/images/slider/img/img1.png" alt=""></a></li>
+         <li><a href=""><img src="<?php echo get::site(); ?>/images/slider/img/img2.png" alt=""></a></li>
+         <li><a href=""><img src="<?php echo get::site(); ?>/images/slider/img/img3.png" alt=""></a></li>
         </ul>
      </div>
       <div class="sliderbutton">
@@ -39,7 +39,7 @@
    <div class="sozkosesi">
    AS
    </div>
-   <div class="footer">© Web Desing</div>
+   <div class="footer" style=" color:#FFF; background: #343334">© Web Desing</div>
 </div>
 </body>
 </html>
