@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Anamakine: localhost
--- Üretim Zamanı: 06 Mar 2016, 16:38:51
+-- Üretim Zamanı: 09 Mar 2016, 04:16:26
 -- Sunucu sürümü: 5.6.17
 -- PHP Sürümü: 5.5.12
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Veritabanı: `paylass`
+-- Veritabanı: `paylas`
 --
 
 -- --------------------------------------------------------
@@ -36,7 +36,16 @@ CREATE TABLE IF NOT EXISTS `ihtiyaclar` (
   `AlinanId` int(11) NOT NULL,
   `Onay` tinyint(1) NOT NULL,
   PRIMARY KEY (`IhtiyacId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
+
+--
+-- Tablo döküm verisi `ihtiyaclar`
+--
+
+INSERT INTO `ihtiyaclar` (`IhtiyacId`, `SahipId`, `KategoriId`, `Baslik`, `IlId`, `Alinma`, `AlinanId`, `Onay`) VALUES
+(1, 1, 1, '40 numara ayakkabÄ±ya ihtiyacÄ±m var', 31, 0, 0, 0),
+(2, 1, 1, '40 numara ayakkabÄ±ya ihtiyacÄ±m var', 31, 0, 0, 0),
+(4, 1, 3, 'buna', 31, 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -136,6 +145,26 @@ INSERT INTO `iller` (`IlId`, `IlAdi`) VALUES
 (79, 'KÄ°LÄ°S'),
 (80, 'OSMANÄ°YE'),
 (81, 'DÃœZCE');
+
+-- --------------------------------------------------------
+
+--
+-- Tablo için tablo yapısı `kategoriler`
+--
+
+CREATE TABLE IF NOT EXISTS `kategoriler` (
+  `KategoriId` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `KategoriAdi` varchar(200) NOT NULL,
+  PRIMARY KEY (`KategoriId`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+--
+-- Tablo döküm verisi `kategoriler`
+--
+
+INSERT INTO `kategoriler` (`KategoriId`, `KategoriAdi`) VALUES
+(1, 'test'),
+(2, 'deneme');
 
 -- --------------------------------------------------------
 
