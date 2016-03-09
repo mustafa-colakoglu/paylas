@@ -24,6 +24,9 @@
 			$data = $this->model("Ihtiyaclarim")->Duzenle();
 			$this->view("IhtiyaclarimDuzenle",$data);
 		}
+		function Sil(){
+			$data = $this->model("Ihtiyaclarim")->Sil();
+		}
 		function Kontrol(){
 			$IsLogin = $this->model("LogInOut")->IsLogin();
 			$UyeBilgi = $this->model("LogInOut")->GetLoginedUser();

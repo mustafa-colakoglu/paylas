@@ -47,6 +47,26 @@
 						$data["Kaydetme"] = 1;
 					}
 				}
+				else if(!empty($KategoriId) and !empty($Baslik)){
+					$UyeBilgileri = $this->model("LogInOut")->GetLoginedUser();
+					$UyeBilgileri = $UyeBilgileri["UyeBilgileri"][0];
+					$SahipId = $UyeBilgileri["UyeId"];
+					$IlId = $UyeBilgileri["IlId"];
+					$KategoriKontrol = $this->select("kategoriler","KategoriId='$KategoriId'");
+					if(count($KategoriKontrol)>0){
+						$KategoriId = $KategoriKontrol[0]["KategoriId"];
+					}
+					else{
+						$data["Kaydetme"] = 1;
+					}
+					if(!$this->Kontrol()){
+						$this->insert("ihtiyaclar",false,"'','$SahipId','$KategoriId','$Baslik','$IlId','0','0','0'");
+						$data["Kaydetme"] = 2;
+					}
+					else{
+						$data["Kaydetme"] = 1;
+					}
+				}
 				else{
 					$data["Kaydetme"] = 1;
 				}

@@ -6,7 +6,8 @@
  }
 body 
  { 
- 	background-image: url(../img/background.png);
+ 	background-image:url(../images/background.png);
+	background-repeat:repeat-x;
 	
  }
 .kapsa
@@ -14,11 +15,11 @@ body
 	background: #fff;
 	margin:0 auto;
 	width:980px;	
-	border: solid #CCC 2px;
+	
  }
 .header
  {
-	 background-image:url(../img/banner.png);
+	 background-image:url(../images/banner.png);
 	 padding: 0px 30px 0px 30px;
 	 margin-bottom: -20px;
 	 width: 920px;
@@ -34,7 +35,10 @@ body
 	 margin-top: 17px;
 	 padding-top: 5px;
 	 text-align: center;
-	 
+	 tex-decoration: none;
+ }
+ .gonullu a{
+ text-decoration:none;
  }
 .ihtiyac
  {
@@ -46,7 +50,23 @@ body
 	 margin-top: 17px;
 	 padding-top: 5px;
 	 text-align: center;
-	 
+ }
+ .ihtiyac a{
+	text-decoration:none;
+ }
+ .kayit
+ {
+	width: 120px;
+	 height: 25px;	 
+	 background-color: #CC9;
+	 float: left;
+	 margin-left: 680px;
+	 margin-top: 13px;
+	 padding-top: 5px;
+	 text-align: center;
+ }
+  .kayit a{
+	text-decoration:none;
  }
 .sozkosesi
  {

@@ -1,4 +1,17 @@
 <section>
+	<?php
+		if($Kaydetme == 0){}
+		else if($Kaydetme == 1){
+		?>
+		Formda eksik değer bırakmayın.
+		<?php
+		}
+		else{
+		?>
+		İhtiyaç düzenlendi. Onaylandıktan sonra işlem başlatılacaktır.
+		<?php
+		}
+		?>
 	<form action="" method="post">
 		Kategori : <select name="KategoriId">
 			<option value="0">Kategori Seçin</option>
