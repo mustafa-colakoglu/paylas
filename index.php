@@ -7,7 +7,7 @@
 **/
 	define("SYSTEM_PATH","../MSMVC/System/");
 	define("APPLICATION_PATH","./App/");
-	define("ENVIRONMENT","development");
+	define("ENVIRONMENT","design");
 	define("ALERTS","on");
 	define("url","Main");
 	if (defined('ENVIRONMENT'))
@@ -22,7 +22,8 @@
 			case 'production':
 				error_reporting(0);
 			break;
-
+			case "design":
+			break;
 			default:
 				exit('The application environment is not set correctly.');
 		}

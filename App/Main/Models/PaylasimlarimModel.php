@@ -1,11 +1,11 @@
 <?php
 	namespace Models;
 	use MS\MSModel;
-	class IhtiyaclarimModel extends MSModel{
-		function Ihtiyaclar(){
+	class PaylasimlarimModel extends MSModel{
+		function Paylasimlar(){
 			$Uye = $this->model("LogInOut")->GetLoginedUser();
 			$UyeId = $Uye["UyeBilgileri"][0]["UyeId"];
-			$data["Ihtiyaclar"] = $this->select("ihtiyaclar","SahipId='$UyeId' and Alinma='0' and Onay='1'");
+			$data["Paylasimlar"] = $this->select("paylasimlar","PaylasanId='$UyeId' and Verilme='0' and RezerveEdilme='0' and Onay='1'");
 			return $data;
 		}
 		function Duzenle(){
@@ -17,7 +17,7 @@
 			else{
 				$Uye = $this->model("LogInOut")->GetLoginedUser();
 				$UyeId = $Uye["UyeBilgileri"][0]["UyeId"];
-				$Ihtiyac = $this->select("ihtiyaclar","SahipId='$UyeId' and IhtiyacId='$Id' and Alinma='0' and Onay='1'");
+				$Ihtiyac = $this->select("paylasimlar","PaylasanId='$UyeId' and PaylasimId='$Id' and Verilme='0' and RezerveEdilme='0' and Onay='1'");
 				if(count($Ihtiyac)>0){
 					$data["Kategoriler"] = $this->select("kategoriler");
 					$data["Kaydetme"] = 0;
@@ -41,13 +41,19 @@
 						else{
 							$YeniKategori = "";
 						}
+						if(isset($_POST["Aciklama"])){
+							$Aciklama = $this->Uselib->formDataFix($_POST["Aciklama"]);
+						}
+						else{
+							$Aciklama = "";
+						}
 						if(empty($KategoriId) and (empty($Baslik) or empty($Aciklama))){
 							$data["Kaydetme"] = 1;
 						}
-						else if(!empty($YeniKategori) and !empty($Baslik)){
+						else if(!empty($YeniKategori) and !empty($Baslik) and !empty($Aciklama)){
 							$UyeBilgileri = $this->model("LogInOut")->GetLoginedUser();
 							$UyeBilgileri = $UyeBilgileri["UyeBilgileri"][0];
-							$PaylasanId = $UyeBilgileri["UyeId"];
+							$SahipId = $UyeBilgileri["UyeId"];
 							$IlId = $UyeBilgileri["IlId"];
 							$KategoriKontrol = $this->select("kategoriler","KategoriAdi='$YeniKategori'");
 							if(count($KategoriKontrol)>0){
@@ -58,13 +64,14 @@
 								$KategoriId = $this->lastInsertId();
 							}
 							if($data["Kaydetme"] == 2){ 
-								$this->update("ihtiyaclar","KategoriId='$KategoriId',Baslik='$Baslik',Onay='0'","IhtiyacId='$Id'");
+								//$this->update("ihtiyaclar","KategoriId='$KategoriId',Baslik='$Baslik',Onay='0'","IhtiyacId='$Id'");
+								$this->update();
 							}
 						}
-						else if(!empty($KategoriId) and !empty($Baslik)){
+						else if(!empty($KategoriId) and !empty($Baslik) and !empty($Aciklama)){
 							$UyeBilgileri = $this->model("LogInOut")->GetLoginedUser();
 							$UyeBilgileri = $UyeBilgileri["UyeBilgileri"][0];
-							$PaylasanId = $UyeBilgileri["UyeId"];
+							$SahipId = $UyeBilgileri["UyeId"];
 							$IlId = $UyeBilgileri["IlId"];
 							$KategoriKontrol = $this->select("kategoriler","KategoriId='$KategoriId'");
 							if(count($KategoriKontrol)>0){
@@ -82,24 +89,10 @@
 					$data["Ihtiyac"] = $Ihtiyac[0];
 					return $data;
 				}
-				header("Location:".$this->site."/Main");
-			}
-		}
-		function Sil(){
-			$Id = intval($this->url[2]);
-			$Hata = 0;
-			if($Id == 0){
-				header("Location:".$this->site."/Main");
-			}
-			else{
-				$Uye = $this->model("LogInOut")->GetLoginedUser();
-				$UyeId = $Uye["UyeBilgileri"][0]["UyeId"];
-				$Ihtiyac = $this->select("ihtiyaclar","SahipId='$UyeId' and IhtiyacId='$Id'");
-				if(count($Ihtiyac)>0){
-					$this->delete("ihtiyaclar","IhtiyacId='$Id'");
+				else{
+					header("Location:".$this->site."/Main");
 				}
 			}
-			header("Location:".$this->site."/Ihtiyaclarim");
 		}
 	}
 ?>

@@ -16,6 +16,8 @@
 		}
 		function actionIndex(){
 			$this->controller("Header");
+			$data = $this->model("GonulluUyeOl")->Kaydet();
+			$this->view("GonulluUyeOl",$data);
 		}
 	}
 ?>

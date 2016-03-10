@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Anamakine: localhost
--- Üretim Zamanı: 09 Mar 2016, 04:16:26
+-- Üretim Zamanı: 10 Mar 2016, 13:59:15
 -- Sunucu sürümü: 5.6.17
 -- PHP Sürümü: 5.5.12
 
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `ihtiyaclar` (
 --
 
 INSERT INTO `ihtiyaclar` (`IhtiyacId`, `SahipId`, `KategoriId`, `Baslik`, `IlId`, `Alinma`, `AlinanId`, `Onay`) VALUES
-(1, 1, 1, '40 numara ayakkabÄ±ya ihtiyacÄ±m var', 31, 0, 0, 0),
+(1, 1, 1, '40 numara ayakkabÄ±ya ihtiyacÄ±m var', 31, 0, 0, 1),
 (2, 1, 1, '40 numara ayakkabÄ±ya ihtiyacÄ±m var', 31, 0, 0, 0),
 (4, 1, 3, 'buna', 31, 0, 0, 0);
 
@@ -225,7 +225,15 @@ CREATE TABLE IF NOT EXISTS `paylasimlar` (
   `RezerveEdenId` int(11) NOT NULL,
   `Onay` tinyint(1) NOT NULL,
   PRIMARY KEY (`PaylasimId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+
+--
+-- Tablo döküm verisi `paylasimlar`
+--
+
+INSERT INTO `paylasimlar` (`PaylasimId`, `PaylasanId`, `KategoriId`, `Baslik`, `Aciklama`, `ResimYolu`, `IlId`, `Verilme`, `VerilenId`, `RezerveEdilme`, `RezerveEdenId`, `Onay`) VALUES
+(1, 2, 2, 'paylaÅŸÄ±m deneme', 'bu paylaÅŸÄ±mÄ±n aÃ§Ä±klamasÄ±', '4.png', 23, 0, 0, 0, 0, 0),
+(4, 2, 2, 'tea sda', ' dsa d a ', '4.png', 23, 0, 0, 0, 0, 1);
 
 -- --------------------------------------------------------
 
@@ -248,14 +256,15 @@ CREATE TABLE IF NOT EXISTS `uyeler` (
   `Banlanma` tinyint(1) NOT NULL,
   `KisaOzet` text NOT NULL,
   PRIMARY KEY (`UyeId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
 -- Tablo döküm verisi `uyeler`
 --
 
 INSERT INTO `uyeler` (`UyeId`, `KullaniciAdi`, `Sifre`, `Ad`, `Soyad`, `Email`, `CepTel`, `Tc`, `Tip`, `IlId`, `Onay`, `Banlanma`, `KisaOzet`) VALUES
-(1, 'mustafa220', '23ea07cb59b68ab6cfd1528086140aef', 'Mustafa', 'Ã‡olakoÄŸlu', 'mustafa@a.c', '05432491821', '49612045764', 2, 31, 0, 0, 'ben mustafa Ã§');
+(1, 'mustafa220', '23ea07cb59b68ab6cfd1528086140aef', 'Mustafa', 'Ã‡olakoÄŸlu', 'mustafa@a.c', '5432491821', '49612045764', 2, 31, 0, 0, 'ben mustafa Ã§'),
+(2, 'mustafa221', '23ea07cb59b68ab6cfd1528086140aef', 'sad', 'dsad', 'qwe@dsa.ca', '456786456', '1234568910', 3, 23, 0, 0, '');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

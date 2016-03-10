@@ -23,3 +23,6 @@
 	*::-moz-selection{
 		background:#74cff9;
 	}
+	textarea{
+		border:1px solid;
+	}

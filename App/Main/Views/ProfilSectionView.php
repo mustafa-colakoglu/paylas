@@ -8,5 +8,12 @@
 		<a href="<?php echo get::site(); ?>/Ihtiyaclarim">Eklediğiniz ihtiyaçlarınız</a>
 		<?php
 		}
+		else if($Uye["Tip"] == 3){
+		?>
+		<a href="<?php echo get::site(); ?>/Profil/BilgileriDuzenle">Bilgierinizi Düzenleyin</a>
+		<a href="<?php echo get::site(); ?>/PaylasimEkle">Ne paylaşmak istiyorsunuz</a>
+		<a href="<?php echo get::site(); ?>/Paylasimlarim">Eklediğiniz paylaşımlarınız</a>
+		<?php
+		}
 	?>
 </section>

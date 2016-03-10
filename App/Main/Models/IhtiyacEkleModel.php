@@ -72,14 +72,14 @@
 				}
 			}
 			$data["EksikVarmi"] = $this->Kontrol();
-			$data["Kategoriler"] = $this->select("kategoriler");
+			$data["Kategoriler"] = $this->select("kategoriler","","","ORDER BY KategoriAdi ASC");
 			return $data;
 		}
 		function Kontrol(){
 			$UyeBilgileri = $this->model("LogInOut")->GetLoginedUser();
 			$U = $UyeBilgileri["UyeBilgileri"][0];
 			extract($U);
-			if(empty($Ad) or empty($Soyad) or empty($CepTel) or empty($Tc) or $IlId == 0){
+			if(empty($Ad) or empty($Soyad) or empty($CepTel) or empty($Tc) or $IlId == 0 or $Tip != 2){
 				return true;
 			}
 			else if($Tip == 2 and empty($KisaOzet)){
