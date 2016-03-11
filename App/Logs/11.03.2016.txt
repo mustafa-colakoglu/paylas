@@ -1,0 +1,268 @@
+19.31.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.31.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.31.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.31.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.31.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.31.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.31.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.31.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.31.45	 : ::1 	 Sorgu Yapıldı : SELECT ihtiyaclar.KategoriId FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and itiyaclar.KategoriId=paylasimlar.KategoriId and paylasimlar.RezervEdilme=0 FROM : Main
+19.33.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.33.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.33.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.33.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.33.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.33.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.33.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.33.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.33.21	 : ::1 	 Sorgu Yapıldı : SELECT ihtiyaclar.KategoriId FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and paylasimlar.RezervEdilme='0' FROM : Main
+19.33.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.33.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.33.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.33.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.33.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.33.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.33.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.33.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.33.53	 : ::1 	 Sorgu Yapıldı : SELECT ihtiyaclar.KategoriId FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.34.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.34.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.34.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.34.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.34.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.34.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.34.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.34.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.34.13	 : ::1 	 Sorgu Yapıldı : SELECT ihtiyaclar.KategoriId,paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.34.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.34.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.34.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.34.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.34.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.34.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.34.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.34.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.34.19	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.34.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.34.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.34.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.34.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.34.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.34.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.34.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.34.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.34.57	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.35.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.35.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.35.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.35.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.35.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.35.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.35.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.35.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.35.00	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.36.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.36.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.36.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.36.15	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.36.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.36.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.36.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.36.22	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.36.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.36.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.36.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.36.23	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.36.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.36.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.36.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.36.28	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.37.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.37.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.37.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.37.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.37.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.37.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.37.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.37.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.37.12	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.38.20	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='2' and KullaniciAdi='mustafa221' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.38.20	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='2' and KullaniciAdi='mustafa221' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.38.20	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='2'  FROM : Main
+19.38.20	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='2' and KullaniciAdi='mustafa221' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.38.20	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='2' and KullaniciAdi='mustafa221' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.38.20	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='2'  FROM : Main
+19.39.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.39.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.39.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.39.21	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.39.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='2' and KullaniciAdi='mustafa221' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='2' and KullaniciAdi='mustafa221' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='2'  FROM : Main
+19.39.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='2' and KullaniciAdi='mustafa221' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='2' and KullaniciAdi='mustafa221' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='2'  FROM : Main
+19.39.31	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.31	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.31	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.39.31	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.31	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.31	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.39.31	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.31	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.39.31	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.39.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.39.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.39.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.39.36	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.39.56	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.56	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.56	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.39.56	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.56	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.56	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.39.56	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.39.56	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.39.56	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.40.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.40.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.40.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.40.04	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.40.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.40.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.40.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.40.15	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.40.49	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.49	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.49	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.40.49	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.49	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.49	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.40.49	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.49	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.40.49	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.40.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.40.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.40.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.40.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.40.53	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.46.29	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.46.29	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.46.29	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.46.29	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.46.29	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.46.29	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.46.29	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.46.29	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.46.29	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.47.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.47.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.47.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.47.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.47.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.47.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.47.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.47.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.47.22	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+20.15.17	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+20.15.17	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+20.15.17	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+20.15.17	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+20.15.17	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+20.15.17	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+20.15.17	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+20.15.17	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+20.15.17	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+20.17.08	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.19.32	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.19.32	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.19.32	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : RezerveEt/6
+20.19.43	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.19.43	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.19.43	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : RezerveEt/6
+20.19.54	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.19.54	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.19.54	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : RezerveEt/6
+20.20.43	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.20.43	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.20.43	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : RezerveEt/6
+20.21.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.21.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.21.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : RezerveEt/6
+20.21.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM paylasimlar WHERE PaylasimId='6'  FROM : RezerveEt/6
+20.22.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.22.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.22.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : RezerveEt/6
+20.22.18	 : ::1 	 Sorgu Yapıldı : SELECT RezerveEdilme FROM paylasimlar WHERE PaylasimId='6' and RezerveEdilme='0'  FROM : RezerveEt/6
+20.22.40	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.22.40	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.22.40	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : RezerveEt/6
+20.22.40	 : ::1 	 Sorgu Yapıldı : SELECT RezerveEdilme FROM paylasimlar WHERE PaylasimId='6' and RezerveEdilme='0'  FROM : RezerveEt/6
+20.31.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.31.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.31.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.31.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : RezerveEt/6
+20.31.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.31.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : RezerveEt/6
+20.31.41	 : ::1 	 Sorgu Yapıldı : SELECT RezerveEdilme FROM paylasimlar WHERE PaylasimId='6' and RezerveEdilme='0'  FROM : RezerveEt/6
+20.31.41	 : ::1 	 Sorgu Yapıldı : UPDATE paylasimlar SET RezerveEdilme='1',RezerveEdenId='1' WHERE PaylasimId='6' FROM : RezerveEt/6
+20.31.52	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.31.52	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.31.52	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.31.52	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : RezerveEt/6
+20.31.52	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : RezerveEt/6
+20.31.52	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : RezerveEt/6
+20.31.52	 : ::1 	 Sorgu Yapıldı : SELECT RezerveEdilme FROM paylasimlar WHERE PaylasimId='6' and RezerveEdilme='0'  FROM : RezerveEt/6
+20.31.55	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+20.31.55	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+20.31.55	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+20.31.55	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+20.31.55	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+20.31.55	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+20.31.55	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+20.31.55	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+20.31.55	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main

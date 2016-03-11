@@ -69,7 +69,7 @@
 						$KategoriId = $this->lastInsertId();
 					}
 					if(!$this->Kontrol()){
-						$this->insert("paylasimlar",false,"'','$PaylasanId','$KategoriId','$Baslik','$Aciklama','','$IlId','0','0','0','0','0'");
+						$this->insert("paylasimlar",false,"'','$PaylasanId','$KategoriId','$Baslik','$Aciklama','','$IlId','0','0','0','0','0','1'");
 						$InsertId = $this->lastInsertId();
 						$ResimYolu = $InsertId.$Uzanti;
 						$copy = copy($File["tmp_name"],APPLICATION_PATH."/Front/images/".$ResimYolu);
@@ -99,7 +99,7 @@
 						$data["Kaydetme"] = 1;
 					}
 					if(!$this->Kontrol()){
-						$this->insert("paylasimlar",false,"'','$PaylasanId','$KategoriId','$Baslik','$Aciklama','','$IlId','0','0','0','0','0'");
+						$this->insert("paylasimlar",false,"'','$PaylasanId','$KategoriId','$Baslik','$Aciklama','','$IlId','0','0','0','0','0','1'");
 						$InsertId = $this->lastInsertId();
 						$ResimYolu = $InsertId.$Uzanti;
 						$copy = copy($File["tmp_name"],APPLICATION_PATH."/Front/images/".$ResimYolu);

@@ -40,7 +40,7 @@
 						$KategoriId = $this->lastInsertId();
 					}
 					if(!$this->Kontrol()){
-						$this->insert("ihtiyaclar",false,"'','$SahipId','$KategoriId','$Baslik','$IlId','0','0','0'");
+						$this->insert("ihtiyaclar",false,"'','$SahipId','$KategoriId','$Baslik','$IlId','0','0','0','1'");
 						$data["Kaydetme"] = 2;
 					}
 					else{
@@ -60,7 +60,7 @@
 						$data["Kaydetme"] = 1;
 					}
 					if(!$this->Kontrol()){
-						$this->insert("ihtiyaclar",false,"'','$SahipId','$KategoriId','$Baslik','$IlId','0','0','0'");
+						$this->insert("ihtiyaclar",false,"'','$SahipId','$KategoriId','$Baslik','$IlId','0','0','0','1'");
 						$data["Kaydetme"] = 2;
 					}
 					else{

@@ -7,7 +7,7 @@
 **/
 	define("SYSTEM_PATH","../MSMVC/System/");
 	define("APPLICATION_PATH","./App/");
-	define("ENVIRONMENT","design");
+	define("ENVIRONMENT","development");
 	define("ALERTS","on");
 	define("url","Main");
 	if (defined('ENVIRONMENT'))

@@ -5,7 +5,7 @@
 		function Ihtiyaclar(){
 			$Uye = $this->model("LogInOut")->GetLoginedUser();
 			$UyeId = $Uye["UyeBilgileri"][0]["UyeId"];
-			$data["Ihtiyaclar"] = $this->select("ihtiyaclar","SahipId='$UyeId' and Alinma='0' and Onay='1'");
+			$data["Ihtiyaclar"] = $this->select("ihtiyaclar","SahipId='$UyeId' and Alinma='0'");
 			return $data;
 		}
 		function Duzenle(){

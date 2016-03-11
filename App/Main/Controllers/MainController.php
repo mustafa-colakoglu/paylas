@@ -4,7 +4,7 @@
 	class Main extends MSController{
 		function actionIndex(){
 			$this->controller("Header");
-			$this->controller("Section");
+			$this->controller("MainSection");
 			$this->controller("Footer");
 		}
 	}
