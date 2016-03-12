@@ -3,7 +3,7 @@ $(function(){
 	
 	var sure=7000;
 	var toplamli=$(".slider ul li").size();
-	var liWidth=650;
+	var liWidth=610;
 	var toplamWidth=toplamli * liWidth;
 	var lideger=0;
 	$(".slider ul").css("width" , toplamWidth + "px" );

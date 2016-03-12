@@ -1,6 +1,6 @@
 <section>
-	<div class="sol">
-		<ul>
+	<div class="mesajbolum" >
+		<div class="msjmenu">
 			<?php
 				foreach($TumKonular as $Konu){
 					extract($Konu);
@@ -15,24 +15,12 @@
 						if($GonderenOkuma == 0){
 							//Gönderen giren kiþi ama okunmamýþ mesaj
 						?>
-						<li>
-							<a href="<?php echo get::site(); ?>/Mesajlar/MesajlariOku/<?php echo $KonuId; ?>">
-							<?php
-								echo $Karsi;
-							?> *
-							</a>
-						</li>
+						<div class="yenimsj" style="border-top: solid #b44242 2px;"><a href="<?php echo get::site(); ?>/Mesajlar/MesajlariOku/<?php echo $KonuId; ?>"><?php echo $Karsi; ?></a></div>
 						<?php
 						}
 						else{
 						?>
-						<li>
-							<a href="<?php echo get::site(); ?>/Mesajlar/MesajlariOku/<?php echo $KonuId; ?>">
-							<?php
-								echo $Karsi;
-							?>
-							</a>
-						</li>
+						<div class="mesajism"><a href="<?php echo get::site(); ?>/Mesajlar/MesajlariOku/<?php echo $KonuId; ?>"><?php echo $Karsi; ?></a></div>
 						<?php
 						}
 					}
@@ -40,28 +28,15 @@
 						if($AlanOkuma == 0){
 							//Alan giren kiþi ama okunmamýþ mesaj
 						?>
-						<li>
-							<a href="<?php echo get::site(); ?>/Mesajlar/MesajlariOku/<?php echo $KonuId; ?>">
-							<?php
-								echo $Karsi;
-							?> *
-							</a>
-						</li>
+						<div class="yenimsj" style="border-top: solid #b44242 2px;"><a href="<?php echo get::site(); ?>/Mesajlar/MesajlariOku/<?php echo $KonuId; ?>"><?php echo $Karsi; ?></a></div>
 						<?php
 						}
 						else{
 						?>
-						<li>
-							<a href="<?php echo get::site(); ?>/Mesajlar/MesajlariOku/<?php echo $KonuId; ?>">
-							<?php
-								echo $Karsi;
-							?>
-							</a>
-						</li>
+						<div class="mesajism"><a href="<?php echo get::site(); ?>/Mesajlar/MesajlariOku/<?php echo $KonuId; ?>"><?php echo $Karsi; ?></a></div>
 						<?php
 						}
 					}
 				}
 			?>
-		</ul>
-	</div>
+		</div>

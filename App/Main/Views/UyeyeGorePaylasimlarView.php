@@ -1,4 +1,19 @@
 <section>
+	<div class="middle">
+		<div id="slider">
+			<div class="slider">
+				<ul>
+					<li><a href=""><img src="<?php echo get::site(); ?>/images/slider/img1.png" alt="" /></a></li>
+					<li><a href=""><img src="<?php echo get::site(); ?>/images/slider/img2.png" alt="" /></a></li>
+					<li><a href=""><img src="<?php echo get::site(); ?>/images/slider/img3.png" alt="" /></a></li>      
+			   </ul>
+			</div>
+			  <div class="sliderbutton">
+				 <a href="#" class="onceki"><img src="<?php echo get::site(); ?>/images/prev2.png" /></a>
+				 <a href="#" class="sonraki"><img src="<?php echo get::site(); ?>/images/next2.png" /></a>
+			  </div>
+		</div>
+	</div>
 	<h2>Size Göre Paylaşımlar</h2>
 	<br/>
 	<br/>

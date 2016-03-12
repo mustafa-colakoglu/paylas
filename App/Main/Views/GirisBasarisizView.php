@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Giriş Başarısız</title>
-	<link rel="stylesheet" href="<?php echo get::site(); ?>/css/reset.css"/>
-	<link rel="stylesheet" href="<?php echo get::site(); ?>/css/style.css"/>
-	<script type="text/javascript" src="<?php echo get::site(); ?>/js/jquery.js"></script>
-	<script type="text/javascript" src="<?php echo get::site(); ?>/js/js.js"></script>
-	<script type="text/javascript"> var site = "<?php echo get::site(); ?>";</script>
+	<link rel="stylesheet" href="<?php echo get::site(); ?>/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo get::site(); ?>/css/slider.css" type="text/css" />
+	<script type="text/javascript" src="<?php echo get::site(); ?>/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="<?php echo get::site(); ?>/js/slider.js"></script>
+	<script type="text/javascript" src="<?php echo get::site(); ?>/js/site.js"></script>
 </head>
 <body>
-	<div class="headerGiris">
-		<form action="<?php echo get::site(); ?>/Giris" method="post">
-			<div class="tr">Giriş Yapın</div>
-			<div class="tr"><div class="td">KullanıcıAdı</div><div class="td"><input type="text" name="KullaniciAdi"/></div></div>
-			<div class="tr"><div class="td">Şifre</div><div class="td"><input type="password" name="Sifre"/></div></div>
-			<div class="tr"><div class="td"></div><div class="td"><input type="submit" value="Giriş"/></div></div>
-		</form>
-	</div>
+	<div class="middle" style="height: 630px;">        	
+	<form class="girisform" method="post" action="<?php echo get::site(); ?>/Giris">
+			<h1 style="text-align:center;">GİRİŞ BAŞARISIZ</h1>
+			<label><span>KULLANICI ADI: </span><input class="a" type="text" name="KullaniciAdi"/></label>
+			<label><span>ŞİFRE: </span><input class="a" type="password" name="Sifre"/></label>
+			<label><input class="a" type="submit" value="GİRİŞ YAP" /></label>
+	</form>
 </body>
 </html>
