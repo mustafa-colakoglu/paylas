@@ -6,6 +6,8 @@
 			if($this->model("LogInOut")->IsLogin()){
 				$data = $this->model("LogInOut")->GetLoginedUser();
 				$data["EksikBilgiVar"] = $this->Kontrol($data["UyeBilgileri"]);
+				$data["Bildirimler"] = $this->model("Bildirimler")->Bildirim();
+				$data["MesajSayi"] = $this->model("Mesaj")->MesajSayi();
 				$this->view("UserHeader",$data);
 			}
 			else{

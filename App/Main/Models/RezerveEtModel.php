@@ -12,10 +12,15 @@
 			}
 			if($Uye["Tip"] == 2){
 				$UyeId = $Uye["UyeId"];
-				$PaylasimKontrol = $this->select("paylasimlar","PaylasimId='$Id' and RezerveEdilme='0'","RezerveEdilme");
+				$UyeKullaniciAdi = $Uye["KullaniciAdi"];
+				$PaylasimKontrol = $this->select("paylasimlar","PaylasimId='$Id' and RezerveEdilme='0'","RezerveEdilme,PaylasanId,Baslik");
 				if(count($PaylasimKontrol)>0){
 					$data["Hata"] = 2; // doğru işlem
 					$this->update("paylasimlar","RezerveEdilme='1',RezerveEdenId='$UyeId'","PaylasimId='$Id'");
+					$PaylasanId = $PaylasimKontrol[0]["PaylasanId"];
+					$Baslik = $PaylasimKontrol[0]["Baslik"];
+					$Bildirim = $UyeKullaniciAdi.' adlı kullanıcı sizin <b>'.$Baslik.'</b> başlıklı ürününüzü rezerve etti. <a href="'.$this->site.'/MesajAt/'.$UyeId.'">Burdan</a> iletişime geçerek kendisine paylaşımınızı ulaştırabilirisinz.';
+					$this->insert("bildirimler",false,"'','$PaylasanId','$Bildirim','0'");
 				}
 				else{
 					$data["Hata"] = 1; // daha önce alınmış paylaşım

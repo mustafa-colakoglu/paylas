@@ -22,4 +22,26 @@
 					<?php
 					}
 				?>
+				<div class="mesajlar">
+					<a href="<?php echo get::site(); ?>/Mesajlar/">Mesajlar ( <?php echo $MesajSayi; ?> )</a>
+				</div>
+				<div class="bildirimler">
+					<h3>Bildirimler ( <?php echo count($Bildirimler); ?> )</h3>
+					<ul>
+						<?php
+							foreach($Bildirimler as $Bildirim){
+							?>
+							<li>
+								<p>
+									<?php
+										echo $Bildirim["Bildirim"];
+									?>
+									<a href="<?php echo get::site(); ?>/BildirimOkundu/<?php echo $Bildirim["BildirimId"]; ?>">Okundu</a>
+								</p>
+							</li>
+							<?php
+							}
+						?>
+					</ul>
+				</div>
 			</header>
