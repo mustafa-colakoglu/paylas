@@ -5,6 +5,7 @@ body,html{
 	padding: 0;
 	background-image: url(../images/bg.png);
 }
+a{ text-decoration: none; }
 .clearboth {clear: both;}
 @media only screen and (min-width:1024px){
 	.container{
@@ -22,7 +23,7 @@ body,html{
 	/*---------------------------------------------------------------------------------------------------*/
 		/* MENU BASLANGIC */
 	header .head_menu {	width: 1024px;  height: 41px; background: url(../images/header_bar_bg.png);}
-	header .head_menu .menu_ust ul li {line-height: 41px; font-size: 16px; font-weight: bolder; float :left; margin: 0px 60px  0px 110px;}
+	header .head_menu .menu_ust ul li {line-height: 41px; font-size: 16px; font-weight: bolder; float :left; margin: 0px 60px  0px 110px; list-style-type:none;}
 	header .head_menu .menu_ust ul li a {color: #ffffff; text-decoration: none; padding: 10px; dispaly: block; background: url(../images/header_menu_bg.png);}
 	header .head_menu .menu_ust ul li a:hover {color: #650000; text-shadow: 1px 1px 0px #e66969;}
 		/*MENU BITIS*/
@@ -131,9 +132,9 @@ body,html{
   		border: 3px solid #999;}
 	.mesajbolum{
 		width:990px;
-		height:500px;
+		height:500px;		
 		padding-top: 30px;
-		padding-left:30px;}
+		padding-left:30px;}	
 	.msjmenu{
 		width:220px;
 		height: auto;
@@ -143,18 +144,43 @@ body,html{
 		height: 15px;
 		float:left;
 		text-align: center;
-		padding: 20px 15px 20px 15px;
+		padding: 15px 15px 20px 15px;
 		background-color:#e2e2e2;
-		border-bottom: solid #b44242 1px;
-		border-top: solid #b44242 1px;}
+		border: solid #b44242 1px; 
+		font-size: 22px; 
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+	.yenimsj{
+		width: 210px;
+		height: 15px;
+		float:left;
+		text-align: center;
+		padding: 15px 15px 20px 15px;
+		background-color:#CCCCCC;
+		border: solid #b44242 1px; 
+		font-size: 22px; 
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; }
 	.mesajknsm{
 		width: 670px;
 		height: auto;
-		background-color: #f0f0f0;
-		float: right;
-		padding: 30px 30px 10px; 30px;
-		margin-top: -280px;
+		float: left;
+		margin-left: 30px;
+		}
+	.gndrad{
+		width: auto;
+		height: 20px;
+		padding: 10px 10px 5px 10px;}
+	.gndrad a{
+		text-decoration: none;}
+	.msjicrk{
+		width: 550px;
+		height: auto;
+		padding: 5px  20px  25px  10px;
+		margin-left: 30px;
 		border: solid #b44242 1px;}
+	.msjyaz{
+		margin-left: 50px;
+		margin-top: 10px;
+	}
 	.gndr input{
 		width: 100px;  		
   		border: 2px solid #43609c;
@@ -164,8 +190,36 @@ body,html{
   		box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 		font-family:Verdana, Genev"Courier New", Courier, monospace;
 		font-size: 16px;
+		float: right;}
+	.trh{
+		width: auto;
+		height: 10px;
 		float: right;
+		color: #CCC;}
+	.saat{
+		width: auto;
+		height: 10px;
+		float: right;
+		margin-top: 20px;
+		margin-right: -50px;
+		color: #CCC;}
+	.adminmenu{
+		width: 1024px;
+		height: 30px;
+		margin-top: -36px;
 		}
+	.adminmenu ul li{
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 20px; 
+		font-weight: bolder; 
+		float: right;
+		display:block;		
+		list-style-type:none;
+		padding: 5px  5px  5px  5px;
+		border:1px solid #ad0b0b;
+	}	
+	.adminmenu ul li a {color: #ad0b0b; text-decoration: none; padding: 10px; dispaly: block;}
+	
 	.footer {
 		width: 1024px; 		
 		margin: 0 auto;
