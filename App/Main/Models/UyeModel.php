@@ -43,6 +43,34 @@
 					$KisaOzet = $this->Uselib->formDataFix($_POST["KisaOzet"]);
 					$this->BilgiGuncelle($U["UyeId"],"KisaOzet",$KisaOzet);
 				}
+				if(isset($_POST["Sifre1"])){
+					$Sifre1 = md5(md5($_POST["Sifre1"]));
+				}
+				else{
+					$Sifre1 = false;
+				}
+				if(isset($_POST["Sifre2"])){
+					$Sifre2 = md5(md5($_POST["Sifre2"]));
+				}
+				else{
+					$Sifre2 = false;
+				}
+				if(isset($_POST["Sifre"])){
+					$Sifre = md5(md5($_POST["Sifre"]));
+				}
+				else{
+					$Sifre = "";
+				}
+				if($Sifre1 and $Sifre2){
+					if($Sifre1 == $Sifre2){
+						$UyeId = $U["UyeId"];
+						$Kontrol = $this->select("uyeler","UyeId='$UyeId' and Sifre='$Sifre'");
+						if(count($Kontrol)>0){
+							$this->update("uyeler","Sifre='$Sifre1'");
+							header("Location:".$this->site."/Giris");
+						}
+					}
+				}
 			}
 		}
 	}

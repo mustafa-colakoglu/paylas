@@ -13,7 +13,7 @@
 					$this->update("bildirimler","Gorulme='1'","BildirimId='$BildirimId'");
 				}
 			}
-			header("Location:".$this->site."/Main");
+			header("Location:".$this->site."/Bildirimler");
 		}
 	}
 ?>

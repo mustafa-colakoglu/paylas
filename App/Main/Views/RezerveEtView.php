@@ -11,4 +11,11 @@
 		<?php
 		}
 	?>
+	<script type="text/javascript">
+		setTimeout(function (){
+
+		window.location = "<?php echo get::site(); ?>/Main";
+		 
+		},1000);
+	</script>
 </section>

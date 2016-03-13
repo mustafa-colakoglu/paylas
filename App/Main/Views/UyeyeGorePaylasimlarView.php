@@ -1,31 +1,5 @@
 <section>
-	<div class="middle">
-		<div id="slider">
-			<div class="slider">
-				<ul>
-					<li><a href=""><img src="<?php echo get::site(); ?>/images/slider/img1.png" alt="" /></a></li>
-					<li><a href=""><img src="<?php echo get::site(); ?>/images/slider/img2.png" alt="" /></a></li>
-					<li><a href=""><img src="<?php echo get::site(); ?>/images/slider/img3.png" alt="" /></a></li>      
-			   </ul>
-			</div>
-			  <div class="sliderbutton">
-				 <a href="#" class="onceki"><img src="<?php echo get::site(); ?>/images/prev2.png" /></a>
-				 <a href="#" class="sonraki"><img src="<?php echo get::site(); ?>/images/next2.png" /></a>
-			  </div>
-		</div>
-	</div>
 	<h2>Size Göre Paylaşımlar</h2>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<table border=1>
-	<tr>
-		<td></td>
-		<td>Başlık</td>
-		<td>Açıklama</td>
-		<td>Rezerve Et</td>
-	</tr>
 	<?php
 		foreach($Paylasimlar as $Paylasim){
 			extract($Paylasim);
@@ -36,10 +10,21 @@
 			</td>
 			<td><?php echo $Baslik; ?></td>
 			<td><?php echo $Aciklama; ?></td>
-			<td><a href="<?php echo get::site(); ?>/RezerveEt/<?php echo $PaylasimId; ?>">Rezerve Et</a></td>
+			<td><a href="<?php echo get::site(); ?>/RezerveEt/<?php echo $PaylasimId; ?>/<?php echo $IhtiyacId; ?>">Rezerve Et</a></td>
 		</tr>
+		<div class="rzrvedilmis">
+			<div class="rzrvsolresim"><img src="<?php echo get::site(); ?>/images/<?php echo $ResimYolu; ?>" style="width:200px;height:200px;"></div>
+			<div class="rzrvurunbaslik">
+			<?php echo $Baslik; ?>
+			</div>  
+			<div class="rzrvaciklama">
+			<?php
+				echo $Aciklama;
+			?>
+			</div>
+			<div class="rzrvbtn"><label><a href="<?php echo get::site(); ?>/RezerveEt/<?php echo $PaylasimId; ?>/<?php echo $IhtiyacId; ?>">Rezerve Et</a></label></div>  
+		</div>
 		<?php
 		}
 	?>
-	</table>
 </section>

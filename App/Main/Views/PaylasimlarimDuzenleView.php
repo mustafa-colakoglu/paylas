@@ -1,48 +1,75 @@
-<section>
-	<?php
-		if($Kaydetme == 0){}
-		else if($Kaydetme == 1){
-		?>
-		Formda eksik değer bırakmayın.
-		<?php
-		}
-		else if($Kaydetme == 3){
-		?>
-		Bir hata oluştu. Yeniden deneyin.
-		<?php
-		}
-		else{
-		?>
-		Paylaşım düzenlendi. Onaylandıktan sonra işlem başlatılacaktır.
-		<?php
-		}
-	?>
-	<form action="" method="post" enctype="multipart/form-data">
-		Kategori : <select name="KategoriId">
-			<option value="0">Kategori Seçin</option>
+<div class="middle" style=" height:520px;">
+	<div class="kapsa2">
+	<div class="ihtiycsolmenu">
+		<ul>
 			<?php
-				foreach($Kategoriler as $kategori){
-					if($Paylasim["KategoriId"] == $kategori["KategoriId"]){
-					?>
-					<option value="<?php echo $kategori["KategoriId"]; ?>" selected><?php echo $kategori["KategoriAdi"]; ?></option>
+			$Uye = $UyeBilgileri[0];
+			if($Uye["Tip"] == 2){
+			?>
+			<li><a href="<?php echo get::site(); ?>/Profil/BilgileriDuzenle">Bilgierinizi Düzenleyin</a></li>
+			<li><a href="<?php echo get::site(); ?>/IhtiyacEkle">Neye ihtiyacınız var. Burdan ekleyin</a></li>
+			<li><a href="<?php echo get::site(); ?>/Ihtiyaclarim">Eklediğiniz ihtiyaçlarınız</a></li>
+			<li><a href="<?php echo get::site(); ?>/RezerveEttiginizPaylasimlar">Rezerve Ettiğiniz Paylaşımlar</a></li>
+			<?php
+			}
+			else if($Uye["Tip"] == 3){
+			?>
+			<li><a href="<?php echo get::site(); ?>/Profil/BilgileriDuzenle">Bilgierinizi Düzenleyin</a></li>
+			<li><a href="<?php echo get::site(); ?>/PaylasimEkle">Ne paylaşmak istiyorsunuz</a></li>
+			<li><a href="<?php echo get::site(); ?>/Paylasimlarim">Eklediğiniz paylaşımlarınız</a></li>
+			<li><a href="<?php echo get::site(); ?>/RezerveEdilenPaylasimlar">Rezerve Edilen Paylaşımlar</a></li>
+			<?php
+			}
+			?>
+		</ul>
+	</div>
+	<div class="ihtiycicerik"> 
+		<form class="girisform2" style="height: auto; margin-top: 15px;" method="post" enctype="multipart/form-data">
+			<?php
+			if($Kaydetme == 0){}
+			else if($Kaydetme == 1){
+			?>
+			<div class="uyari">Formda eksik değer bırakmayın.</div>
+			<?php
+			}
+			else if($Kaydetme == 3){
+			?>
+			<div class="uyari">Bir hata oluştu. Lütfen tekrar deneyin.</div>
+			<?php
+			}
+			else{
+			?>
+			<div class="uyari">Paylaşım Düzenlendi. Onaylandıktan sonra işlem başlatılacaktır.</div>
+			<?php
+			}
+				?>
+			<h1 style="text-align:center; margin-top: -30px;">Paylaşım Düzenle</h1>
+			<label><span>Başlık: </span><input class="a" type="text" name="Baslik" value="<?php echo $Paylasim["Baslik"]; ?>"/></label>
+			<label><span>Açıklama</span><textarea name="Aciklama" cols="45"> <?php echo $Paylasim["Baslik"]; ?> </textarea></label>
+			<label><span>Yeni Kategori: </span><input class="a" type="text" name="YeniKategori"/></label>
+			<label><span>Resim Değiştirebilirsiniz</span><input type="file" name="Resim"/></label> <br/>
+			<label><span>Kategoriler: </span>
+				<select name="KategoriId">
+					<option value="0">Kategori Seçin</option>
 					<?php
-					}
-					else{
+						foreach($Kategoriler as $kategori){
+							if($Paylasim["KategoriId"] == $kategori["KategoriId"]){
+							?>
+							<option value="<?php echo $kategori["KategoriId"]; ?>" selected><?php echo $kategori["KategoriAdi"]; ?></option>
+							<?php
+							}
+							else{
+							?>
+							<option value="<?php echo $kategori["KategoriId"]; ?>"><?php echo $kategori["KategoriAdi"]; ?></option>
+							
+							<?php
+							}
+						}
 					?>
-					<option value="<?php echo $kategori["KategoriId"]; ?>"><?php echo $kategori["KategoriAdi"]; ?></option>
-					
-					<?php
-					}
-				}
-			?> <br/>
-		</select>
-		Yeni kategori : <input type="text" name="YeniKategori"/>
-		Başlık : <input type="text" name="Baslik" value="<?php echo $Paylasim["Baslik"]; ?>"/> <br/>
-		<textarea name="Aciklama"><?php echo $Paylasim["Aciklama"]; ?></textarea> <br/><br/><br/><br/>
-		Resim : <input type="file" name="Resim" /> (Resmi değiştirmek istiyorsanız seçin.) <br/>
-			<input type="submit" value="Kaydet"/>
-			<div class="resim">
-				<img src="<?php echo get::site(); ?>/images/<?php echo $Paylasim["ResimYolu"]; ?>"/>
-			</div>
-	</form>
-</section>
+				</select>
+			</label>
+			<label><input class="a" type="submit" value="Düzenle" /></label>
+		</form>
+	</div>
+</div>
+</div>

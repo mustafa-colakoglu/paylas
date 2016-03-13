@@ -23,7 +23,7 @@
 
 			window.location = "'.$this->site.'";
 			 
-			},3000);
+			},1000);
 			</script></body></html>';
 		}
 	}

@@ -16,12 +16,12 @@
 		}
 		function actionIndex(){
 			$this->controller("Header");
-			$data = $this->model("Ihtiyaclarim")->Ihtiyaclar();
+			$data = array_merge($this->model("Ihtiyaclarim")->Ihtiyaclar(),$this->model("LogInOut")->GetLoginedUser());
 			$this->view("Ihtiyaclarim",$data);
 		}
 		function Duzenle(){
 			$this->controller("Header");
-			$data = $this->model("Ihtiyaclarim")->Duzenle();
+			$data = array_merge($this->model("Ihtiyaclarim")->Duzenle(),$this->model("LogInOut")->GetLoginedUser());;
 			$this->view("IhtiyaclarimDuzenle",$data);
 		}
 		function Sil(){

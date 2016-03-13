@@ -11,6 +11,9 @@
 					$this->view("UyeyeGorePaylasimlar",$data);
 				}
 			}
+			else{
+				$this->controller("Slider");
+			}
 		}
 	}
 ?>

@@ -17,7 +17,7 @@
 			else{
 				$Uye = $this->model("LogInOut")->GetLoginedUser();
 				$UyeId = $Uye["UyeBilgileri"][0]["UyeId"];
-				$Ihtiyac = $this->select("ihtiyaclar","SahipId='$UyeId' and IhtiyacId='$Id' and Alinma='0' and Onay='1'");
+				$Ihtiyac = $this->select("ihtiyaclar","SahipId='$UyeId' and IhtiyacId='$Id' and Alinma='0'");
 				if(count($Ihtiyac)>0){
 					$data["Kategoriler"] = $this->select("kategoriler");
 					$data["Kaydetme"] = 0;
@@ -58,7 +58,7 @@
 								$KategoriId = $this->lastInsertId();
 							}
 							if($data["Kaydetme"] == 2){ 
-								$this->update("ihtiyaclar","KategoriId='$KategoriId',Baslik='$Baslik',Onay='0'","IhtiyacId='$Id'");
+								$this->update("ihtiyaclar","KategoriId='$KategoriId',Baslik='$Baslik'","IhtiyacId='$Id'");
 							}
 						}
 						else if(!empty($KategoriId) and !empty($Baslik)){
@@ -74,7 +74,7 @@
 								$data["Kaydetme"] = 1;
 							}
 							if($data["Kaydetme"] == 2){ 
-								$this->update("ihtiyaclar","KategoriId='$KategoriId',Baslik='$Baslik',Onay='0'","IhtiyacId='$Id'");
+								$this->update("ihtiyaclar","KategoriId='$KategoriId',Baslik='$Baslik'","IhtiyacId='$Id'");
 							}
 						}
 						$Ihtiyac = $this->select("ihtiyaclar","IhtiyacId='$Id' and SahipId='$UyeId'");

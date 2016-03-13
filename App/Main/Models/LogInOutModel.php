@@ -11,6 +11,12 @@
 					Session::set("PaylasUyeId",$Kontrol[0]["UyeId"]);
 					Session::set("PaylasKullaniciAdi",$Kontrol[0]["KullaniciAdi"]);
 					Session::set("PaylasSifre",$Kontrol[0]["Sifre"]);
+					if($Kontrol[0]["Tip"] == 1){
+						Session::set("AdminMi",false);
+					}
+					else{
+						Session::set("AdminMi",false);
+					}
 					return true;
 				}
 				return false;
@@ -23,6 +29,9 @@
 			Session::set("PaylasKullaniciAdi",false);
 			Session::set("PaylasSifre",false);
 			return true;
+		}
+		function AdminMi(){
+			return Session::get("AdminMi");
 		}
 		function IsLogin(){
 			$PaylasGiris = Session::get("PaylasGiris");

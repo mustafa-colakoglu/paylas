@@ -2,11 +2,10 @@
 	namespace Controllers;
 	use MS\MSController;
 	use MS\Acl;
-	class IhtiyacEkle extends MSController{
+	class Bildirimler extends MSController{
 		function __construct(){
 			parent::__construct();
-			$this->acl = new Acl();
-			$this->acl->setAccess(array(
+			$this->acl = new Acl(array(
 				array(
 					"actions" => array("actionIndex"),
 					"expression" => $this->model("LogInOut")->IsLogin(),
@@ -16,9 +15,8 @@
 		}
 		function actionIndex(){
 			$this->controller("Header");
-			$data = $this->model("IhtiyacEkle")->Veriler();
-			$data = array_merge($data,$this->model("LogInOut")->GetLoginedUser());
-			$this->view("IhtiyacEkleSection",$data);
+			$data["Bildirimler"] = $this->model("Bildirimler")->Bildirim();
+			$this->view("Bildirimler",$data);
 		}
 	}
 ?>

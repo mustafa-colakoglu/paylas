@@ -4,6 +4,13 @@
 		else if($Gonderilme == 1){
 		?>
 		Mesajınız Gönderildi. Yönlendiriliyorsunuz.
+		<script type="text/javascript">
+			setTimeout(function (){
+
+			window.location = "<?php echo get::site(); ?>/Main";
+			 
+			},1000);
+		</script>
 		<?php
 		}
 		else{

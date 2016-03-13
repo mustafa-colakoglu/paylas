@@ -15,12 +15,12 @@
 		}
 		function actionIndex(){
 			$this->controller("Header");
-			$data = $this->model("Paylasimlarim")->Paylasimlar();
+			$data = array_merge($this->model("Paylasimlarim")->Paylasimlar(),$this->model("LogInOut")->GetLoginedUser());
 			$this->view("Paylasimlar",$data);
 		}
 		function Duzenle(){
 			$this->controller("Header");
-			$data = $this->model("Paylasimlarim")->Duzenle();
+			$data = array_merge($this->model("Paylasimlarim")->Duzenle(),$this->model("LogInOut")->GetLoginedUser());
 			$this->view("PaylasimlarimDuzenle",$data);
 		}
 		function Sil(){

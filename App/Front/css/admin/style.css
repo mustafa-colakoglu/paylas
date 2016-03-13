@@ -1,0 +1,693 @@
+body{
+	background:#fff;
+	width:1366px;
+}
+#genel{
+	width:1366px;
+	height:100%;
+}
+	.data-title{
+		position:absolute;
+		display:none;
+		background:#fff;
+		box-shadow:0px 0px 5px #000;
+		border-radius:5px;
+		padding:5px;
+	}
+	.solMenu{
+		z-index:999;
+		width:250px;
+		background:#000;
+		height:100%;
+	}
+		.colakCMS{
+			width:250px;
+			height:auto;
+			line-height:50px;
+			color:#000;
+			font:40px "Helvetica Neue",Helvetica,Arial,sans-serif;
+		}
+		.colakCMS a{
+			display:block;
+			color:#c0c0c0;
+			width:240px;
+			padding-left:10px;
+		}
+		.solMenu ul{
+			margin-top:20px;
+			width:100%;
+			height:auto;
+		}
+			.solMenu ul li{
+				height:40px;
+				width:250px;
+			}
+				.solMenu ul li a{
+					display:inline-block;
+					width:240px;
+					padding-left:10px;
+					font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+					font-size: 14px;
+					color:#999;
+					line-height:40px;
+				}
+				.solMenu ul li:hover{
+					background: rgba(255,255,255,0.2);
+				}
+				.solMenu ul li a:hover{
+					background: rgba(255,255,255,0.2);
+				}
+				.solMenu ul li a:hover + .altMenu{
+					display:block;
+				}
+				.altMenu:hover{
+					display:block;
+				}
+				.altMenu{
+					display:none;
+					position:absolute;
+					left:250px;
+					top:-20px;
+					background:#111;
+				}
+	.sag{
+		width:1116px;
+		height:100%;
+	}
+		.formTablo{
+			border:0;
+			width:1076px;
+			height:auto;
+			display:block;
+			float:left;
+			margin-left:20px;
+			background:#f0f0f0;
+			margin-top:10px;
+			box-shadow:0 0 5px black;
+			border-radius:10px;
+		}
+			.formTablo tr{
+				line-height:35px;
+				width:1076px;
+			}
+				.formTablo tr td{
+					line-height:35px;
+				}
+				td.bilgi{
+					font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+					font-size:20px;
+					padding-right:30px;
+					padding-left:30px;
+					width:340px;
+				}
+				td.input{
+					width:616px;
+					padding-right:30px;
+					padding-left:30px;
+				}
+					td.input input{
+						box-shadow:0 0 2px #7e83ff;
+					}
+					td.input textarea{
+						box-shadow:0 0 2px #7e83ff;
+					}
+					td.input input[type="text"]{
+						width:606px;
+						height:28px;
+						border-radius:5px;
+						line-height:28px;
+						font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+						font-size:20px;
+						margin-top:1px;
+						padding-left:10px;
+					}
+					td.input input[type="text"]:focus{
+						box-shadow:0 0 5px #2e83ff;
+					}
+					td.input input[type="password"]{
+						width:606px;
+						height:28px;
+						border-radius:5px;
+						line-height:28px;
+						font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+						font-size:20px;
+						margin-top:1px;
+						padding-left:10px;
+					}
+					td.input input[type="password"]:focus{
+						box-shadow:0 0 5px #2e83ff;
+					}
+					td.input textarea{
+						width:606px;
+						height:150px;
+						border-radius:5px;
+						line-height:28px;
+						font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+						font-size:20px;
+						margin-top:1px;
+						padding-left:10px;
+					}
+					td.input textarea:focus{
+						box-shadow:0 0 5px #2e83ff;
+					}
+					a.yaziSil{
+						display:block;
+						width:100px;
+						height:30px;
+						border:0;
+						cursor:pointer;
+						background:#e55;
+						margin-right:20px;
+						text-align:center;
+						font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+						color:#fff;
+						margin-top:4px;
+						float:right;
+					}
+					td.input input[type="submit"]{
+						width:80px;
+						height:30px;
+						margin-top:4px;
+						float:right;
+						background:#2e83ff;
+						line-height:30px;
+						font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+						font-size:17px;
+						color:#fff;
+					}
+		.loginForm{
+			width:400px;
+			position:absolute;
+			left:483px;
+			top:238px;
+		}
+			.loginForm tr{
+				width:400px;
+			}
+			.loginForm tr td.bilgi{
+				width:140px;
+			}
+			.loginForm tr td.input input[type="text"],.loginForm tr td.input input[type="password"]{
+				width:140px;
+			}
+			.loginForm tr td.input{
+				width:140px;
+				padding-left:30px;
+				padding-right:30px;
+			}
+		.uyari{
+			width:600px;
+			height:auto;
+			padding:30px;
+			box-shadow:0 0 5px black;
+			border-radius:10px;
+			text-align:center;
+			position:absolute;
+			top:238px;
+			left:438px;
+			top:-300px;
+			z-index:1000;
+			font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+			font-size:20px;
+			line-height:20px;
+			opacity:1.0;
+		}
+		.olumlu{
+			background:#95cb01;
+			color:#039;
+		}
+		.olumsuz{
+			background:#c30;
+			color:#e6e6e6;
+		}
+		ul.modulList{
+			width:400px;
+			height:auto;
+			margin-left:20px;
+			background:#f0f0f0;
+			margin-top:10px;
+			box-shadow:0 0 5px black;
+			border-radius:10px;
+			padding:5px;
+		}
+			ul.modulList li{
+				width:360px;
+				height:30px;
+				line-height:30px;
+				font-size:20px;
+				cursor:pointer;
+				padding-left:20px;
+				padding-right:20px;
+				background:#ccc;
+				border-radius:5px;
+				margin-top:2px;
+				margin-bottom:2px;
+				cursor:move;
+				font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+			}
+			ul.modulList li a{
+				color:#333;
+				cursor:move;
+			}
+			ul.modulList li:hover{
+				background:#ddd;
+			}
+				.modulIslemYap{
+					position:absolute;
+					top:-2px;
+					right:2px;
+				}
+				button.ayar{
+					width:60px;
+					height:26px;
+					border-radius:5px;
+					border:0;
+					cursor:pointer;
+				}
+				button.ayar:hover{
+					background:#ccc;
+				}
+				button.modulSil{
+					width:50px;
+					height:26px;
+					border-radius:5px;
+					border:0;
+					cursor:pointer;
+					background:#e55;
+				}
+				button.modulSil:hover{
+					background:#c33;
+				}
+				button.adminSil{
+					width:50px;
+					height:26px;
+					border-radius:5px;
+					border:0;
+					cursor:pointer;
+					background:#e55;
+				}
+				button.adminSil:hover{
+					background:#c33;
+				}
+				.adminKaydet{
+					width:80px;
+					height:30px;
+					margin-top:4px;
+					margin-right:4px;
+					float:right;
+					background:#2e83ff;
+					line-height:30px;
+					font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+					font-size:17px;
+					color:#fff;
+					box-shadow:0 0 2px #7e83ff;
+					text-align:center;
+					border-radius:3px;
+					cursor:pointer;
+					border:0;
+				}
+				.yeniKullaniciKaydet{
+					width:80px;
+					height:30px;
+					margin-top:4px;
+					margin-right:4px;
+					float:right;
+					background:#2e83ff;
+					line-height:30px;
+					font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+					font-size:17px;
+					color:#fff;
+					box-shadow:0 0 2px #7e83ff;
+					text-align:center;
+					border-radius:3px;
+					cursor:pointer;
+					border:0;
+				}
+		.modulAyarlarDiv,.kategoriAyarlarDiv{
+			position:absolute;
+			width:400px;
+			height:100px;
+			top:240px;
+			left:300px;
+			display:none;
+		}
+			.modulAyarForm{
+				width:400px;
+			}
+			.modulAyarForm tr{
+				width:400px;
+			}
+			.modulAyarForm td.bilgi{
+				width:170px;
+			}
+			.modulAyarForm td.input{
+				width:170px;
+				padding-right:0;
+				padding-left:0;
+			}
+				.modulAyarForm td.input input[type="text"]{
+					width:150px;
+				}
+				.kaydetDiv{
+					width:80px;
+					height:30px;
+					margin-top:4px;
+					margin-right:4px;
+					float:right;
+					background:#2e83ff;
+					line-height:30px;
+					font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+					font-size:17px;
+					color:#fff;
+					box-shadow:0 0 2px #7e83ff;
+					text-align:center;
+					border-radius:3px;
+					cursor:pointer;
+				}
+		.adminBilgiler{
+			width:800px;
+		}
+			.adminBilgiler tr{
+				width:800px;
+			}
+				.adminBilgiler td{}
+				.adminBilgiler td.bilgi{
+					width:140px;
+				}
+		.yeniAdminEkle{
+			width:500px;
+		}
+			.yeniAdminEkle tr{
+				width:500px;
+			}
+			.yeniAdminEkle td.bilgi{
+				width:190px;	
+			}
+			.yeniAdminEkle td.input{
+				width:190px;
+			}
+			.yeniAdminEkle td.input input[type="text"],.yeniAdminEkle td.input input[type="password"]{
+				width:190px;
+			}
+		ul.anaKategoriListe{
+			width:500px;
+			height:auto;
+			margin-left:20px;
+			background:#f0f0f0;
+			margin-top:10px;
+			box-shadow:0 0 5px black;
+			border-radius:10px;
+			padding:5px;
+		}
+			ul.anaKategoriListe li{
+				width:460px;
+				height:auto;
+				line-height:30px;
+				font-size:20px;
+				cursor:pointer;
+				padding-left:20px;
+				padding-right:20px;
+				background:#ccc;
+				border-radius:5px;
+				margin-top:2px;
+				margin-bottom:2px;
+				cursor:move;
+				color:#333;
+				font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+			}
+			ul.anaKategoriListe li:hover{
+				background:#ddd;
+			}
+				ul.anaKategoriListe li a{
+					color:#333;
+				}
+			ul.altKategoriListe{
+				width:400px;
+				height:auto;
+				margin-left:20px;
+				background:#f0f0f0;
+				margin-top:10px;
+				box-shadow:0 0 5px black;
+				border-radius:10px;
+				padding:5px;
+			}
+				ul.altKategoriListe li{
+					width:360px;
+					height:auto;
+					line-height:30px;
+					font-size:20px;
+					cursor:pointer;
+					padding-left:20px;
+					padding-right:20px;
+					background:#ccc;
+					border-radius:5px;
+					margin-top:2px;
+					margin-bottom:2px;
+					cursor:move;
+					color:#333;
+					font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+				}
+				a.anaKategoriIsim{
+					font-size:15px;
+					background:#a2a2a2;
+					color:#121212;
+					width:auto;
+					font-weight:bold;
+					display:block;
+				}
+				ul.altKategoriListe li:hover{
+					background:#a2a2a2;
+				}
+		input[name="yeniAnaKategori"]{
+			width:400px;
+			height:25px;
+			border-radius:5px;
+			line-height:25px;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			font-size:14px;
+			margin-top:4px;
+			padding-left:10px;
+		}
+		input[name="yeniAnaKategori"]:focus{
+			box-shadow:0 0 5px #2e83ff;
+		}
+		input[name="yeniAnaKategoriKaydet"]{
+			width:80px;
+			height:25px;
+			margin-top:4px;
+			float:right;
+			background:#2e83ff;
+			line-height:25px;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			font-size:17px;
+			color:#fff;
+			border-radius:2px;
+		}
+		input[name="yeniAltKategori"]{
+			width:300px;
+			height:23px;
+			border-radius:5px;
+			line-height:23px;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			font-size:12px;
+			margin-top:4px;
+			margin-bottom:4px;
+			padding-left:10px;
+		}
+		input[name="yeniAnaKategori"]:focus{
+			box-shadow:0 0 5px #2e83ff;
+		}
+		input[name="yeniAltKategoriKaydet"]{
+			width:80px;
+			height:23px;
+			margin-top:4px;
+			margin-bottom:4px;
+			float:right;
+			background:#2e83ff;
+			line-height:23px;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			font-size:17px;
+			color:#fff;
+			border-radius:2px;
+		}
+		.kategoriAyarlarDiv  .formTablo{
+			width:400px;
+		}
+		.kategoriAyarlarDiv .modulAyarForm{
+				width:400px;
+			}
+			.kategoriAyarlarDiv  tr{
+				width:400px;
+			}
+			.kategoriAyarlarDiv  td.bilgi{
+				width:170px;
+			}
+			.kategoriAyarlarDiv  td.input{
+				width:170px;
+				padding-right:0;
+				padding-left:0;
+			}
+				.kategoriAyarlarDiv  td.input input[type="text"]{
+					width:150px;
+				}
+				.kaydetDiv{
+					width:80px;
+					height:30px;
+					margin-top:4px;
+					margin-right:4px;
+					float:right;
+					background:#2e83ff;
+					line-height:30px;
+					font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+					font-size:17px;
+					color:#fff;
+					box-shadow:0 0 2px #7e83ff;
+					text-align:center;
+					border-radius:3px;
+					cursor:pointer;
+				}
+		.kullaniciIslemleri{
+			width:600px;
+		}
+			.kullaniciIslemleri tr{
+				width:600px;
+			}
+				.kullaniciIslemleri td.bilgi{
+					width:190px;
+				}
+				.kullaniciIslemleri td.input{
+					width:290px;
+				}
+					.kullaniciIslemleri td.input input[type="text"]{
+						width:280px;
+					}
+					.kullaniciIslemleri td.input input[type="password"]{
+						width:290px;
+					}
+					.kullaniciIslemleri td.input input[type="file"]{
+						width:290px;
+					}
+				.resimDiv{
+					width:290px;
+					overflow:hidden;
+				}
+					.resimDiv img{
+						width:290px;
+					}
+				.yaziResimDiv{
+					width:100%;
+					height:auto;
+				}
+					.yaziResimDiv img{
+						width:300px;
+						height:auto;
+					}
+				.resimIcinUyari{
+					color:#c33;
+					font:15px "Helvetica Neue",Helvetica,Arial,sans-serif;
+					font-weight:bold;
+					margin-top:5px;
+					margin-bottom:5px;
+				}
+		.yaziEkle{
+			width:600px;
+			margin-left:50px;
+			margin-top:10px;
+		}
+			.yaziEkle a{
+				display:block;
+				width:440px;
+				float:left;
+				font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+				font-size:30px;
+				color:#e55;
+			}
+			.ckeditor{
+				height:600px;
+			}
+		.yaziList{
+			width:500px;
+			height:auto;
+			margin-left:20px;
+			background:#f0f0f0;
+			margin-top:10px;
+			box-shadow:0 0 5px black;
+			border-radius:10px;
+		}
+			.yaziList li{
+				width:500px;
+				height:auto;
+				border-radius:10px;
+			}
+				.yaziList li a{
+					display:block;
+					width:440px;
+					float:left;
+					font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+					font-size:20px;
+					padding-right:30px;
+					padding-left:30px;
+					color:#121212;
+				}
+				.yaziList li a.yaziSil{
+					display:block;
+					width:80px;
+					height:20px;
+					line-height:20px;
+					border:0;
+					cursor:pointer;
+					background:#e55;
+					text-align:center;
+					font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+					font-size:10px;
+					color:#fff;
+					padding-top:5px;
+					padding-bottom:5px;
+					float:right;
+					margin-top:20px;
+				}
+				.yaziList li a.yaziSil:hover{
+					color:#fff;
+				}
+				.yaziList li a:hover{
+					color:#e55;
+				}
+				.yaziList li p{
+					font:15px Verdana;
+					padding-left:30px;
+					padding-right:30px;
+					width:240px;
+					height:15px;
+					line-height:15px;
+					padding-top:5px;
+					padding-bottom:5px;
+				}
+			.yaziList li:hover{
+				background:#ddd;
+			}
+		.yorumlar{
+			width:840px;
+			height:auto;
+			background:#f0f0f0;
+		}
+			.yorum{
+				width:840px;
+			}
+				.yorum div{
+					overflow:hidden;
+					margin-left:10px;
+				}
+				.yorumYaziBaslik{
+					width:150px;
+				}
+				.yorumAdiSoyadi{
+					width:150px;
+				}
+				.yorumEmail{
+					width:150px;
+				}
+				.yorumYorum{
+					width:350px;
+					height:auto;
+				}
+				
