@@ -10692,3 +10692,288 @@
 18.38.36	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.*,ihtiyaclar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
 18.38.56	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : LogOut
 18.38.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM haberler  ORDER BY HaberId DESC LIMIT 5 FROM : Main
+19.06.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM haberler  ORDER BY HaberId DESC LIMIT 5 FROM : Main
+19.06.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Giris
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM bildirimler WHERE UyeId='1' and Gorulme='0'  FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE ((GonderenId='1' and GonderenOkuma='0') or (AlanId='1' and AlanOkuma='0')) and EnsonGonderenId!='1'  FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE GonderenId='1' and GonderenOkuma='0' and EnsonGonderenId!='1' ORDER BY GonderenTime DESC FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE AlanId='1' and AlanOkuma='0' and EnsonGonderenId!='1' ORDER BY AlanTime DESC FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE GonderenId='1' and GonderenOkuma='1' ORDER BY GonderenTime DESC FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE AlanId='1' and AlanOkuma='1' ORDER BY AlanTime DESC FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.06.06	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.*,ihtiyaclar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.20.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.20.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.20.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.20.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.20.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.20.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.26.11	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.26.11	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.26.34	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.26.34	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.27.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.27.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.27.32	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.27.32	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.27.38	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.27.38	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.28.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.28.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.28.14	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.28.14	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.28.39	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.28.39	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.28.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/UyeKontrol
+19.28.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/UyeKontrol
+19.28.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.28.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.28.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/KategoriEkle
+19.28.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/KategoriEkle
+19.28.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.28.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.28.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/HaberEkle
+19.28.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/HaberEkle
+19.28.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.28.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.29.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.29.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM bildirimler WHERE UyeId='1' and Gorulme='0'  FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE ((GonderenId='1' and GonderenOkuma='0') or (AlanId='1' and AlanOkuma='0')) and EnsonGonderenId!='1'  FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE GonderenId='1' and GonderenOkuma='0' and EnsonGonderenId!='1' ORDER BY GonderenTime DESC FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE AlanId='1' and AlanOkuma='0' and EnsonGonderenId!='1' ORDER BY AlanTime DESC FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE GonderenId='1' and GonderenOkuma='1' ORDER BY GonderenTime DESC FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE AlanId='1' and AlanOkuma='1' ORDER BY AlanTime DESC FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1'  FROM : Main
+19.30.18	 : ::1 	 Sorgu Yapıldı : SELECT paylasimlar.*,ihtiyaclar.* FROM ihtiyaclar  INNER JOIN paylasimlar ON ihtiyaclar.SahipId='1' and ihtiyaclar.Alinma='0' and ihtiyaclar.KategoriId=paylasimlar.KategoriId and ihtiyaclar.IlId=paylasimlar.IlId and paylasimlar.RezerveEdilme='0' FROM : Main
+19.30.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.30.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.31.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.31.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.31.11	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/KullaniciIslemleri
+19.31.11	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/KullaniciIslemleri
+19.31.11	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.31.11	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.31.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Hakkinda
+19.31.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Hakkinda
+19.31.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.31.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.31.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/HaberEkle
+19.31.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/HaberEkle
+19.31.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.31.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.31.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/KategoriEkle
+19.31.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/KategoriEkle
+19.31.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.31.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.31.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/UyeKontrol
+19.31.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/UyeKontrol
+19.31.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.31.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.31.20	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='1' and KullaniciAdi='mustafa220' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : LogOut
+19.31.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM haberler  ORDER BY HaberId DESC LIMIT 5 FROM : Main
+19.33.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa222' and Sifre='74be16979710d4c4e7c6647856088456' and Banlanma='0'  FROM : Admin/Giris
+19.33.50	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa222' and Sifre='74be16979710d4c4e7c6647856088456' and Banlanma='0'  FROM : Admin/Giris
+19.34.25	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa222' and Sifre='74be16979710d4c4e7c6647856088456' and Banlanma='0'  FROM : Admin/Giris
+19.34.46	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa222' and Sifre='74be16979710d4c4e7c6647856088456' and Banlanma='0'  FROM : Admin/Giris
+19.35.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa222' and Sifre='74be16979710d4c4e7c6647856088456' and Banlanma='0'  FROM : Admin/Giris
+19.35.26	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa222' and Sifre='74be16979710d4c4e7c6647856088456'  FROM : Admin/Giris
+19.36.40	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Giris
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3'  FROM : Main
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3'  FROM : Main
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM bildirimler WHERE UyeId='3' and Gorulme='0'  FROM : Main
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3'  FROM : Main
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE ((GonderenId='3' and GonderenOkuma='0') or (AlanId='3' and AlanOkuma='0')) and EnsonGonderenId!='3'  FROM : Main
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE GonderenId='3' and GonderenOkuma='0' and EnsonGonderenId!='3' ORDER BY GonderenTime DESC FROM : Main
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE AlanId='3' and AlanOkuma='0' and EnsonGonderenId!='3' ORDER BY AlanTime DESC FROM : Main
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE GonderenId='3' and GonderenOkuma='1' ORDER BY GonderenTime DESC FROM : Main
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE AlanId='3' and AlanOkuma='1' ORDER BY AlanTime DESC FROM : Main
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Main
+19.36.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3'  FROM : Main
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.50	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.50	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.50	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.50	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.50	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.50	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.52	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.52	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.36.52	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.36.52	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Giris
+19.37.34	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : LogOut
+19.37.35	 : ::1 	 Sorgu Yapıldı : SELECT * FROM haberler  ORDER BY HaberId DESC LIMIT 5 FROM : Main
+19.37.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa222' and Sifre='74be16979710d4c4e7c6647856088456'  FROM : Admin/Giris
+19.37.44	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa222' and Sifre='74be16979710d4c4e7c6647856088456'  FROM : Admin/Giris
+19.38.32	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa222' and Sifre='74be16979710d4c4e7c6647856088456' and Banlanma='0'  FROM : Admin/Giris
+19.39.11	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa222' and Sifre='74be16979710d4c4e7c6647856088456' and Banlanma='0'  FROM : Admin/Giris
+19.39.26	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa222' and Sifre='74be16979710d4c4e7c6647856088456' and Banlanma='0'  FROM : Admin/Giris
+19.40.03	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa222' and Sifre='74be16979710d4c4e7c6647856088456' and Banlanma='0'  FROM : Admin/Giris
+19.40.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef' and Banlanma='0'  FROM : Admin/Giris
+19.40.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin
+19.40.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin
+19.40.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.40.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.40.58	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.40.58	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.40.59	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : LogOut
+19.41.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM haberler  ORDER BY HaberId DESC LIMIT 5 FROM : Main
+19.41.05	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef' and Banlanma='0'  FROM : Admin/Giris
+19.41.05	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin
+19.41.05	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin
+19.41.05	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+19.41.05	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+21.35.37	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Paylasilanlar
+21.35.38	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Paylasilanlar
+21.35.38	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+21.35.38	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+22.52.07	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Paylasilanlar
+22.52.07	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Paylasilanlar
+22.52.07	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+22.52.07	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+22.52.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Paylasilanlar
+22.52.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/Paylasilanlar
+22.52.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis
+22.52.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='3' and KullaniciAdi='mustafa222' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Admin/GenelBakis

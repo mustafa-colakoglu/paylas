@@ -5,14 +5,14 @@
 	class LogInOutModel extends MSModel{
 		function Login($KullaniciAdi = false, $Sifre = false){
 			if($KullaniciAdi and $Sifre and is_string($KullaniciAdi) and is_string($Sifre)){
-				$Kontrol = $this->select("uyeler","KullaniciAdi='$KullaniciAdi' and Sifre='$Sifre'");
+				$Kontrol = $this->select("uyeler","KullaniciAdi='$KullaniciAdi' and Sifre='$Sifre' and Banlanma='0'");
 				if(count($Kontrol)>0){
 					Session::set("PaylasGiris",true);
 					Session::set("PaylasUyeId",$Kontrol[0]["UyeId"]);
 					Session::set("PaylasKullaniciAdi",$Kontrol[0]["KullaniciAdi"]);
 					Session::set("PaylasSifre",$Kontrol[0]["Sifre"]);
 					if($Kontrol[0]["Tip"] == 1){
-						Session::set("AdminMi",false);
+						Session::set("AdminMi",true);
 					}
 					else{
 						Session::set("AdminMi",false);
