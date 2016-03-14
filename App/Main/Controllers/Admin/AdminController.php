@@ -27,6 +27,12 @@
 				)
 			));
 		}
+		function before(){
+			if($this->model("LogInOut")->IsLogin() and $this->model("LogInOut")->AdminMi()){
+				$this->view("Admin/Header");
+				$this->view("Admin/SolMenu");
+			}
+		}
 		function actionIndex(){
 			header("Location:".$this->site."/Admin/GenelBakis");
 		}
@@ -54,11 +60,11 @@
 			$this->view("Admin/Giris");
 		}
 		function GenelBakis(){
-			$this->view("Admin/Header");
-			$this->view("Admin/SolMenu");
+			
 		}
 		function Paylasilanlar(){
-			
+			$data = $this->model("Admin/Paylasilanlar")->Paylasilan();
+			$this->view("Admin/Paylasilanlar",$data);
 		}
 	}
 ?>

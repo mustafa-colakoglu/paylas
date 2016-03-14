@@ -16,10 +16,7 @@
 <header>
 	<div class="head_logo">
 	    <div class="logo"><a href="<?php echo get::site(); ?>/"><img src="<?php echo get::site(); ?>/images/logo.png"></a></div>
-       	<div class="head">
-            <div class="parca"><a href="<?php echo get::site(); ?>/GonulluUyeOl"><img src="<?php echo get::site(); ?>/images/gnllu.png"></a></div>
-            <div class="parca"><a href="<?php echo get::site(); ?>/IhtiyacSahibiUyeOl"><img src="<?php echo get::site(); ?>/images/ihtycshb.png"></a></div>
-        </div>
+       	
         <div class="clearboth"></div>
     </div>
     <div class="clearboth"></div>

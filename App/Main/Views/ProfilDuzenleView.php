@@ -51,11 +51,10 @@
 			<?php
 			if($UyeBilgileri["Tip"] == 2){
 				?>
-				<label><span>Kısa Özetiniz</span><textarea name="KisaOzet" placeholder="Sizinle ilgili kısa bir özet"><?php echo $UyeBilgileri["KisaOzet"]; ?></textarea></label>
+				<label><span>Kısa Özetiniz</span><textarea name="KisaOzet" placeholder="Sizinle ilgili kısa bir özet" cols="45"><?php echo $UyeBilgileri["KisaOzet"]; ?></textarea></label>
 				<?php
 				}
 			?>
-			<h1 style="text-align:center; margin-top: -30px;">Bilgileriniz</h1>
 			<label><span>Mevcut Şifre : </span><input type="password" name="Sifre" class="a"/></label>
 			<label><span>Yeni Şifre : </span><input type="password" name="Sifre1" class="a"/></label>
 			<label><span>Yeni Şifre Tekrar : </span><input type="password" name="Sifre2" class="a"/></label>

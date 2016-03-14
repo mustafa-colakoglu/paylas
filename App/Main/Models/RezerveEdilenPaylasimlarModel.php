@@ -31,7 +31,7 @@
 			$AlanId = $Paylasim["RezerveEdenId"];
 			$PaylasimId = $Paylasim["PaylasimId"];
 			$IhtiyacId = $Paylasim["VerilenIhtiyacId"];
-			$this->update("paylasimlar","Verilme='1',VerilenId='$AlanId',VerilenIhtiyacId='$IhtiyacId'","PaylasimId='$PaylasimId'");
+			$this->update("paylasimlar","VerilenId='$AlanId',VerilenIhtiyacId='$IhtiyacId'","PaylasimId='$PaylasimId'");
 			$Ihtiyac = $this->select("ihtiyaclar","IhtiyacId='$IhtiyacId'");
 			$Ihtiyac = $Ihtiyac[0];
 			$Bildirim = '<b>'.$Ihtiyac["Baslik"].'</b> adlı ihtiyacınızı temin ettiyseniz <a href="'.$this->site.'/RezerveEttiginizPaylasimlar/Alindi/'.$PaylasimId.'"> buraya </a> tıklayarak onaylayabilirsiniz.';

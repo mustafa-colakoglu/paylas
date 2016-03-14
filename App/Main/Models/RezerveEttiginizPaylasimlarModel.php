@@ -18,12 +18,13 @@
 			$PaylasimId =@intval($this->url[2]);
 			if($PaylasimId>0){
 				$UyeId = $this->Uye["UyeId"];
-				$PaylasimKontrol = $this->select("paylasimlar","","paylasimlar.*,ihtiyaclar.*","INNER JOIN ihtiyaclar ON paylasimlar.RezerveEdenId='$UyeId' and paylasimlar.VerilenIhtiyacId=ihtiyaclar.IhtiyacId and ihtiyaclar.Alinma='0'");
+				$PaylasimKontrol = $this->select("paylasimlar","","paylasimlar.*,ihtiyaclar.*","INNER JOIN ihtiyaclar ON paylasimlar.RezerveEdenId='$UyeId' and paylasimlar.PaylasimId='$PaylasimId'");
 				if(count($PaylasimKontrol)>0){
 					$VerenId = $PaylasimKontrol[0]["PaylasanId"];
 					$IhtiyacId = $PaylasimKontrol[0]["VerilenIhtiyacId"];
 					$PaylasimId = $PaylasimKontrol[0]["PaylasimId"];
-					$this->update("ihtiyaclar","Alinma='1',AlinanId='$VerenId',AlinanPaylasimId='$PaylasimId'");
+					$this->update("ihtiyaclar","Alinma='1',AlinanId='$VerenId',AlinanPaylasimId='$PaylasimId'","IhtiyacId='$IhtiyacId'");
+					$this->update("paylasimlar","Verilme='1',VerilenId='$UyeId'","PaylasimId='$PaylasimId'");
 				}
 			}
 			header("Location:".$this->site."/RezerveEttiginizPaylasimlar");
