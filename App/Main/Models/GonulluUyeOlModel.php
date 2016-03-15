@@ -56,7 +56,7 @@
 				}
 				if($data["HataMesaji"] == ""){
 					echo "dsa";
-					$this->insert("uyeler",false,"'','$KullaniciAdi','$Sifre1','','','$Email','','','3','','0','0',''"); // 3 gönüllüler için
+					$this->insert("uyeler",false,"'','$KullaniciAdi','$Sifre1','','','$Email','','','3','','','',''"); // 3 gönüllüler için
 					$data["Kaydet"] = 2;
 					$data["HataMesaji"] .= '<ul class="hataMesaji hataMesaji2"><li>Kayıt Başarılı. Profil Sayfanıza Yönlendiriliyorsunuz.</li></ul>';
 					$data["HataMesaji"] .= ' 	

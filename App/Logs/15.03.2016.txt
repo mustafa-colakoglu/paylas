@@ -1,0 +1,53 @@
+21.04.21	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM haberler  ORDER BY HaberId DESC LIMIT 5 FROM : Main
+21.04.34	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='metin'  FROM : IhtiyacSahibiUyeOl
+21.04.34	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE Email='abc@dsa.csa'  FROM : IhtiyacSahibiUyeOl
+21.04.34	 : 127.0.0.1 	 Sorgu Yapıldı : INSERT INTO uyeler VALUES('','metin','23ea07cb59b68ab6cfd1528086140aef','','','abc@dsa.csa','','','2','','0','0') FROM : IhtiyacSahibiUyeOl
+21.04.34	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='metin' and Sifre='23ea07cb59b68ab6cfd1528086140aef' and Banlanma='0'  FROM : IhtiyacSahibiUyeOl
+21.04.37	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM haberler  ORDER BY HaberId DESC LIMIT 5 FROM : Main
+21.04.42	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='metin' and Sifre='23ea07cb59b68ab6cfd1528086140aef' and Banlanma='0'  FROM : Giris
+21.05.17	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='metin' and Sifre='23ea07cb59b68ab6cfd1528086140aef' and Banlanma='0'  FROM : Giris
+21.08.16	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM haberler  ORDER BY HaberId DESC LIMIT 5 FROM : Main
+21.08.23	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='metin'  FROM : IhtiyacSahibiUyeOl
+21.08.23	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE Email='dsa@ewqewq.csa'  FROM : IhtiyacSahibiUyeOl
+21.08.23	 : 127.0.0.1 	 Sorgu Yapıldı : INSERT INTO uyeler VALUES('','metin','23ea07cb59b68ab6cfd1528086140aef','','','dsa@ewqewq.csa','','','3','','','','') FROM : IhtiyacSahibiUyeOl
+21.08.23	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='metin' and Sifre='23ea07cb59b68ab6cfd1528086140aef' and Banlanma='0'  FROM : IhtiyacSahibiUyeOl
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='4' and KullaniciAdi='metin' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Profil
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='4' and KullaniciAdi='metin' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Profil
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='4' and KullaniciAdi='metin' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Profil
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='4'  FROM : Profil
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='4' and KullaniciAdi='metin' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Profil
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='4'  FROM : Profil
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM bildirimler WHERE UyeId='4' and Gorulme='0'  FROM : Profil
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='4' and KullaniciAdi='metin' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Profil
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='4'  FROM : Profil
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE ((GonderenId='4' and GonderenOkuma='0') or (AlanId='4' and AlanOkuma='0')) and EnsonGonderenId!='4'  FROM : Profil
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE GonderenId='4' and GonderenOkuma='0' and EnsonGonderenId!='4' ORDER BY GonderenTime DESC FROM : Profil
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE AlanId='4' and AlanOkuma='0' and EnsonGonderenId!='4' ORDER BY AlanTime DESC FROM : Profil
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE GonderenId='4' and GonderenOkuma='1' ORDER BY GonderenTime DESC FROM : Profil
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE AlanId='4' and AlanOkuma='1' ORDER BY AlanTime DESC FROM : Profil
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='4' and KullaniciAdi='metin' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Profil
+21.08.26	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='4'  FROM : Profil
+21.08.33	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='4' and KullaniciAdi='metin' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : LogOut
+21.08.34	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM haberler  ORDER BY HaberId DESC LIMIT 5 FROM : Main
+21.08.52	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='metin2'  FROM : GonulluUyeOl
+21.08.52	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE Email='terw@dsa.cas'  FROM : GonulluUyeOl
+21.08.52	 : 127.0.0.1 	 Sorgu Yapıldı : INSERT INTO uyeler VALUES('','metin2','23ea07cb59b68ab6cfd1528086140aef','','','terw@dsa.cas','','','3','','','','') FROM : GonulluUyeOl
+21.08.52	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE KullaniciAdi='metin2' and Sifre='23ea07cb59b68ab6cfd1528086140aef' and Banlanma='0'  FROM : GonulluUyeOl
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='5' and KullaniciAdi='metin2' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Profil
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='5' and KullaniciAdi='metin2' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Profil
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='5' and KullaniciAdi='metin2' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Profil
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='5'  FROM : Profil
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='5' and KullaniciAdi='metin2' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Profil
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='5'  FROM : Profil
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM bildirimler WHERE UyeId='5' and Gorulme='0'  FROM : Profil
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='5' and KullaniciAdi='metin2' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Profil
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='5'  FROM : Profil
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE ((GonderenId='5' and GonderenOkuma='0') or (AlanId='5' and AlanOkuma='0')) and EnsonGonderenId!='5'  FROM : Profil
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE GonderenId='5' and GonderenOkuma='0' and EnsonGonderenId!='5' ORDER BY GonderenTime DESC FROM : Profil
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE AlanId='5' and AlanOkuma='0' and EnsonGonderenId!='5' ORDER BY AlanTime DESC FROM : Profil
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE GonderenId='5' and GonderenOkuma='1' ORDER BY GonderenTime DESC FROM : Profil
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM mesaj_konular WHERE AlanId='5' and AlanOkuma='1' ORDER BY AlanTime DESC FROM : Profil
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='5' and KullaniciAdi='metin2' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : Profil
+21.08.55	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='5'  FROM : Profil
+21.08.57	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM uyeler WHERE UyeId='5' and KullaniciAdi='metin2' and Sifre='23ea07cb59b68ab6cfd1528086140aef'  FROM : LogOut
+21.08.59	 : 127.0.0.1 	 Sorgu Yapıldı : SELECT * FROM haberler  ORDER BY HaberId DESC LIMIT 5 FROM : Main
