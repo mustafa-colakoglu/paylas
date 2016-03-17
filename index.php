@@ -28,7 +28,7 @@
 				exit('The application environment is not set correctly.');
 		}
 	}
-	require_once SYSTEM_PATH."/core/MSAutoload.php";
+	require_once SYSTEM_PATH."/Core/MSAutoload.php";
 //---------------------------------------------------------------------------
 /* End of file index.php */
 /* Location : ./index.php*/
