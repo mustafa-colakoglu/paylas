@@ -55,7 +55,7 @@
 					$data["HataMesaji"].="<li>Formda eksik değer bırakmayın.</li>";
 				}
 				if($data["HataMesaji"] == ""){
-					$this->insert("uyeler",false,"'','$KullaniciAdi','$Sifre1','','','$Email','','','3','','','',''"); // 2 ihtiyaç sahipleri için
+					$this->insert("uyeler",false,"'','$KullaniciAdi','$Sifre1','','','$Email','','','2','','','',''"); // 2 ihtiyaç sahipleri için
 					$data["Kaydet"] = 2;
 					$data["HataMesaji"] .= '<ul class="hataMesaji hataMesaji2"><li>Kayıt Başarılı. Profil Sayfanıza Yönlendiriliyorsunuz.</li></ul>';
 					$data["HataMesaji"] .= ' 	
